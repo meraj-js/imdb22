@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "imdb",
   "license": "ISC",
-  "author": "p.nouri",
+  "author": "meraj-js",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
