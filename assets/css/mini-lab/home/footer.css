@@ -1,0 +1,152 @@
+footer {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+footer>a {
+    text-decoration: none;
+    color: black;
+    font-family: imdbfont;
+    font-size: 14px;
+    background-color: rgb(245, 197, 24);
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+footer>a:hover {
+    background-color: rgb(218, 177, 28);
+}
+
+footer .social-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-media .left-side-f {
+    width: 400px;
+    height: 90px;
+    border: 0.2px solid rgb(98, 98, 98);
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-media .left-side-f .medias {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+
+.social-media .left-side-f .medias svg {
+    cursor: pointer;
+}
+
+
+
+.social-media .left-side-f h2 {
+    font-family: imdbfont;
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    font-weight: 400;
+}
+
+.social-media .right-side-f {
+    width: 400px;
+    height: 90px;
+    border: 0.2px solid rgb(98, 98, 98);
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding-left: 18px;
+    gap: 6px;
+}
+
+.social-media .right-side-f h2 {
+    font-family: imdbfont;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social-media .right-side-f p {
+    font-family: imdbfont;
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.first-option-line ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.first-option-line ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: imdbfont;
+    font-size: 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.first-option-line ul li a:hover {
+    text-decoration: underline;
+}
+
+.second-option-line ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.second-option-line ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: imdbfont;
+    font-size: 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.second-option-line ul li a:hover {
+    text-decoration: underline;
+}
+
+footer>p:nth-of-type(1) {
+    color: white;
+    font-family: imdbfont;
+    font-size: 14px;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+footer>p:nth-of-type(2) {
+    color: white;
+    font-family: imdbfont;
+    font-size: 12px;
+}

@@ -1,0 +1,114 @@
+footer {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+.get-app {
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    height: 55px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-app a {
+    background-color: rgb(236, 195, 13);
+    font-family: imdbfont;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.get-app a:hover {
+    background-color: rgb(218, 177, 28);
+}
+
+footer>a {
+    text-decoration: none;
+    color: rgb(75, 134, 207);
+    font-family: imdbfont;
+    font-size: 14px;
+    background-color: rgb(28, 28, 28);
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+
+footer>a:hover {
+    background-color: rgb(26, 29, 38);
+}
+
+footer .social-media {
+    display: none;
+
+}
+
+.first-option-line ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.first-option-line ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: imdbfont;
+    font-size: 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.first-option-line ul li a:hover {
+    text-decoration: underline;
+}
+
+.second-option-line ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.second-option-line ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: imdbfont;
+    font-size: 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.second-option-line ul li a:hover {
+    text-decoration: underline;
+}
+
+footer>p:nth-of-type(1) {
+    color: white;
+    font-family: imdbfont;
+    font-size: 14px;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+footer>p:nth-of-type(2) {
+    color: white;
+    font-family: imdbfont;
+    font-size: 12px;
+}

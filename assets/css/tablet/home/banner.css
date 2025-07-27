@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    background-color: black;
+}
+
+.page-content-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+}
+
+.page-content-container .banner-side {
+    width: 100%;
+    margin-top: 40px;
+    transition: 300ms;
+}
+
+.page-content-container .banner-side:hover {
+    opacity: 0.9;
+}
+
+.banner-side .banner {
+    border-radius: 12px;
+}
+
+
+.page-content-container .banner .swiper-slide {
+    width: 100%;
+    object-fit: fill;
+    cursor: pointer;
+    position: relative;
+}
+
+.banner .swiper-slide .shadow {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(101, 92, 92, 0), rgba(68, 42, 42, 0.047), rgba(18, 18, 18, 0.307), rgb(0, 0, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-content-container .banner .swiper-slide>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.page-content-container .banner .swiper-slide .poster img {
+    width: 100%;
+    border-radius: inherit;
+    cursor: context-menu;
+}
+
+.page-content-container .banner .swiper-slide .poster {
+    width: 110px;
+    position: absolute;
+    border-radius: 0% 8% 8% 8%;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.banner .swiper-slide .poster svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-content-container .banner .swiper-slide .poster-info-left {
+    position: absolute;
+    bottom: 35px;
+    left: 150px;
+}
+
+.page-content-container .banner .swiper-slide .poster-info-right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+    gap: 10PX;
+    font-weight: 400;
+}
+
+.poster-info-right .title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.poster-info-right .title h3 {
+    font-family: imdbfont;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.poster-info-right .title span {
+    font-family: imdbfont;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    align-self: flex-end;
+}
+
+.page-content-container .banner .swiper-slide .poster-info-right>span {
+    font-family: imdbfont;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.page-content-container .banner .swiper-slide .poster-info-right .likes-first {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.poster-info-right .likes-first span {
+    font-family: imdbfont;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+/* about movies */
+.about-movies a {
+    color: white;
+    font-family: imdbfont;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.about-movies a:hover {
+    color: rgb(247, 212, 58);
+}
+
+.about-movies h3 {
+    display: none;
+}
+
+.about-movies .movies {
+    display: none;
+}
+
+
+.page-content-container .banner .swiper-button-next {
+    color: white;
+    position: absolute;
+    top: 140px;
+}
+
+.page-content-container .banner .swiper-button-next::after {
+    padding: 8px;
+    border-radius: 8%;
+    border: 0.5px solid white;
+    background-color: rgba(176, 176, 176, 0.168);
+
+}
+
+.page-content-container .banner .swiper-button-prev {
+    color: white;
+    position: absolute;
+    top: 140px;
+}
+
+.page-content-container .banner .swiper-button-prev::after {
+    padding: 8px;
+    border-radius: 8%;
+    border: 0.5px solid white;
+    background-color: rgba(176, 176, 176, 0.168);
+}

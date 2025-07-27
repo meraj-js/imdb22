@@ -1,0 +1,791 @@
+.streaming {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(18, 18, 18);
+}
+
+.streaming h2 {
+    font-family: imdbfont;
+    font-size: 28px;
+    color: rgb(245, 197, 24);
+    margin-bottom: 40px;
+    background-color: black;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.streaming ul li a {
+    font-family: imdbfont;
+    color: white;
+    list-style: none;
+    border-bottom: 3px solid rgb(87, 153, 239);
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.streaming ul {
+    margin-bottom: 35px;
+    margin-left: 20px;
+    display: none;
+}
+
+.streaming ul li a:hover {
+    background-color: rgb(58, 58, 58, 0.5);
+}
+
+.streaming p {
+    font-family: imdbfont;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.streaming .streaming-slide {
+    width: 96%;
+    height: 520px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.streaming .streaming-slide .swiper-button-next {
+    display: none;
+}
+
+.streaming .streaming-slide .swiper-button-prev {
+    display: none;
+}
+
+.streaming .streaming-slide .swiper-slide {
+    background-color: rgb(26, 26, 26);
+    border-radius: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.streaming .streaming-slide .swiper-slide .wathing-more {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.streaming .streaming-slide .swiper-slide img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+
+.streaming .streaming-slide .swiper-slide .stars {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
+.streaming .streaming-slide .swiper-slide .stars span {
+    font-family: imdbfont;
+    color: rgb(145, 145, 145);
+}
+
+.streaming .streaming-slide .swiper-slide span {
+    color: white;
+    font-family: imdbfont;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.streaming .streaming-slide .swiper-slide button {
+    width: 80%;
+    height: 35px;
+    border-radius: 40px;
+    align-self: center;
+    font-family: imdbfont;
+    color: rgb(63, 153, 239);
+    background-color: rgb(44, 44, 44);
+    border: unset;
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.streaming .streaming-slide .swiper-slide .trailer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.streaming .streaming-slide .swiper-slide .trailer a {
+    text-decoration: none;
+    color: white;
+    font-family: imdbfont;
+}
+
+.streaming .streaming-slide .swiper-slide>svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+/* .Movies-TVshows */
+
+.Movies-TVshows {
+    width: 100%;
+}
+
+.Movies-TVshows h2 {
+    font-family: imdbfont;
+    font-size: 28px;
+    color: rgb(245, 197, 24);
+    padding-left: 20px;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.Movies-TVshows .in-theaters {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(18, 18, 18);
+    padding-bottom: 20px;
+
+}
+
+.Movies-TVshows .in-theaters p {
+    color: white;
+    font-family: imdbfont;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+
+.Movies-TVshows .in-theaters span {
+    font-family: imdbfont;
+    font-size: 16px;
+    color: rgb(120, 120, 120);
+    padding-left: 25px;
+}
+
+
+.Movies-TVshows .in-theaters .theaters {
+    width: 96%;
+    margin-top: 15px;
+}
+
+.in-theaters .theaters .swiper-slide .wathing-more {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.in-theaters .theaters .swiper-slide {
+    background-color: rgb(26, 26, 26);
+    border-radius: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+}
+
+.in-theaters .theaters .swiper-button-next {
+    display: none;
+}
+
+.in-theaters .theaters .swiper-button-prev {
+    display: none;
+}
+
+.in-theaters .theaters .swiper-slide img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+
+.in-theaters .theaters .swiper-slide .stars {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
+.in-theaters .theaters .swiper-slide .stars span {
+    font-family: imdbfont;
+    color: rgb(145, 145, 145);
+}
+
+.in-theaters .theaters .swiper-slide span {
+    color: white;
+    font-family: imdbfont;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.in-theaters .theaters .swiper-slide button {
+    width: 80%;
+    height: 35px;
+    border-radius: 40px;
+    align-self: center;
+    font-family: imdbfont;
+    color: rgb(63, 153, 239);
+    background-color: rgb(44, 44, 44);
+    border: unset;
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.in-theaters .theaters .swiper-slide .trailer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding-bottom: 20px;
+}
+
+.in-theaters .theaters .swiper-slide .trailer a {
+    text-decoration: none;
+    color: white;
+    font-family: imdbfont;
+}
+
+.in-theaters .theaters .swiper-slide>svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+/* .top-box */
+.Movies-TVshows .top-box {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(18, 18, 18);
+}
+
+.Movies-TVshows .top-box>p {
+    color: white;
+    font-family: imdbfont;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 12px;
+}
+
+.Movies-TVshows .top-box>span {
+    font-family: imdbfont;
+    font-size: 15px;
+    margin-left: 12px;
+    color: rgb(120, 120, 120);
+    padding-left: 20px;
+}
+
+
+/* .tiket-container */
+.Movies-TVshows .tiket-container {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.Movies-TVshows .tiket-container .tikets {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.Movies-TVshows .tiket-container .tikets>svg:nth-last-of-type(1) {
+    position: absolute;
+    right: 0;
+}
+
+.Movies-TVshows .tiket-container .tikets svg:nth-of-type(1) {
+    width: 20px;
+    height: 20px;
+}
+
+.Movies-TVshows .tiket-container .tikets svg:nth-of-type(2) {
+    width: 40px;
+    height: 40px;
+}
+
+.Movies-TVshows .tiket-container .tikets span {
+    font-family: imdbfont;
+    color: white;
+}
+
+
+.Movies-TVshows .tiket-container .tikets .movies-name p {
+    font-family: imdbfont;
+    color: rgb(250, 250, 250);
+    font-size: 12px;
+    font-weight: 400;
+    justify-items: right;
+}
+
+
+.Movies-TVshows .tiket-container .tikets svg:nth-last-of-type(1) {
+    justify-items: right;
+    flex-grow: 1;
+}
+
+/* .coming-soon */
+.coming-soon {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(18, 18, 18);
+}
+
+.coming-soon>p {
+    color: white;
+    font-family: imdbfont;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.coming-soon>span {
+    font-family: imdbfont;
+    font-size: 16px;
+    margin-left: 12px;
+    color: rgb(120, 120, 120);
+    padding-left: 20px;
+}
+
+.coming-soon .comingsoon-slider {
+    width: 96%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.coming-soon .comingsoon-slider .swiper-button-next {
+    display: none;
+}
+
+.coming-soon .comingsoon-slider .swiper-button-prev {
+    display: none;
+}
+
+.coming-soon .comingsoon-slider .soon-image {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.coming-soon .comingsoon-slider img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+.coming-soon .comingsoon-slider .swiper-slide .Start-watching {
+    position: absolute;
+    bottom: 12px;
+    left: 8px;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 8px;
+    font-family: imdbfont;
+    font-size: 14px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.coming-soon .comingsoon-slider .soon-image .shadow {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(101, 92, 92, 0), rgba(68, 42, 42, 0.047), rgba(18, 18, 18, 0.307), rgb(0, 0, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.coming-soon .comingsoon-slider .save-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.coming-soon .comingsoon-slider .save-info>svg {
+    align-self: flex-start;
+}
+
+.comingsoon-slider .save-info .movies-information {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.comingsoon-slider .save-info .movies-information p {
+    color: rgb(120, 120, 120);
+    font-family: imdbfont;
+    font-size: 12px;
+}
+
+.comingsoon-slider .save-info .movies-information a:nth-of-type(1) {
+    color: white;
+    font-family: imdbfont;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.comingsoon-slider .save-info .movies-information a:nth-of-type(2) {
+    font-family: imdbfont;
+    font-size: 15px;
+    color: rgb(30, 111, 186);
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.comingsoon-slider .save-info .movies-information .likes-views {
+    color: rgb(120, 120, 120);
+    font-family: imdbfont;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    gap: 8px;
+}
+
+
+/* more explore */
+.more-explore {
+    width: 100%;
+
+}
+
+.more-explore h2 {
+    font-family: imdbfont;
+    font-size: 27px;
+    color: rgb(245, 197, 24);
+    height: 80px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.more-explore .editors-picks {
+    background-color: rgb(18, 18, 18);
+}
+
+.more-explore .editors-picks p {
+    color: rgb(235, 235, 235);
+    font-family: imdbfont;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.more-explore .editors-picks .more-exploresec .more-exploreimage .shadow {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(101, 92, 92, 0), rgba(68, 42, 42, 0.047), rgba(18, 18, 18, 0.307), rgb(0, 0, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.more-explore .editors-picks .more-exploresec {
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+
+}
+
+.more-explore .editors-picks .more-exploresec .more-exploreimage {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.more-explore .editors-picks .more-exploresec img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.more-explore .editors-picks .more-exploresec img:hover {
+    opacity: 0.8;
+}
+
+.more-explore .more-exploresec .tap-for-more2 {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.more-explore .editors-picks .more-exploresec .swiper-button-next {
+    display: none;
+}
+
+.more-explore .editors-picks .more-exploresec .swiper-button-prev {
+    display: none;
+}
+
+
+.more-explore .more-exploresec .tap-for-more2 {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tap-for-more2 a:nth-of-type(1) {
+    color: white;
+    text-decoration: none;
+    font-family: imdbfont;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.tap-for-more2 a:nth-of-type(2) {
+    color: rgb(51, 95, 169);
+    font-family: imdbfont;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.tap-for-more2 a:hover {
+    text-decoration: underline;
+}
+
+.more-explore .list-option {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    cursor: pointer;
+
+}
+
+.more-explore .list-option span {
+    color: white;
+    font-family: imdbfont;
+}
+
+
+
+/* born-today */
+.born-today {
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+}
+
+.born-today p {
+    color: white;
+    font-family: imdbfont;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.born-today span {
+    font-family: imdbfont;
+    font-size: 16px;
+    margin-left: 12px;
+    color: rgb(120, 120, 120);
+}
+
+.born-today .birthdays {
+    width: 96%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.born-today .birthdays .swiper-slide img {
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.born-today .birthdays .actors-info {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.born-today .birthdays span:nth-of-type(1) {
+    font-family: imdbfont;
+    color: rgb(255, 255, 255);
+
+}
+
+.born-today .birthdays span:nth-of-type(2) {
+    font-family: imdbfont;
+    color: rgb(148, 148, 148);
+}
+
+.born-today .birthdays .swiper-slide {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.born-today .birthdays .swiper-button-next {
+    display: none;
+}
+
+.born-today .birthdays .swiper-button-prev {
+    display: none;
+}
+
+
+/* news */
+.news {
+    background-color: rgb(18, 18, 18);
+}
+
+
+.news p {
+    color: white;
+    font-family: imdbfont;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.news .top-newssec {
+    width: 96%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.news .top-newssec .swiper-button-next {
+    display: none;
+}
+
+.news .top-newssec .swiper-button-prev {
+    display: none;
+}
+
+.news .top-newssec img {
+    width: 20%;
+    border-radius: 20px;
+}
+
+.news .top-newssec .swiper-slide {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.news .top-newssec .swiper-slide .options {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    width: 60%;
+}
+
+.news .top-newssec .swiper-slide .options span:nth-of-type(1) {
+    font-family: imdbfont;
+    color: rgb(227, 227, 227);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.news .top-newssec .swiper-slide .options span:nth-of-type(2) {
+    font-family: imdbfont;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.more-explore .news-list ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    list-style: none;
+    background-color: rgb(18, 18, 18);
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.more-explore .news-list ul li {
+    border: 0.3px solid rgb(128, 128, 128);
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+
+.more-explore .news-list ul li a {
+    color: white;
+    font-family: imdbfont;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.more-explore .recently-viewed h2 {
+    color: white;
+    font-family: imdbfont;
+    font-size: 20px;
+}
+
+.more-explore .recently-viewed p {
+    color: rgb(180, 180, 180);
+    font-family: imdbfont;
+    font-size: 14px;
+    padding-left: 20px;
+}

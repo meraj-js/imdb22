@@ -1,0 +1,104 @@
+.celebrities {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(18, 18, 18);
+    margin-top: 40px;
+    padding-bottom: 15px;
+}
+
+.celebrities .title-cel {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+    margin-bottom: 20PX;
+    padding-top: 15px;
+}
+
+.celebrities .title-cel h2 {
+    color: white;
+    font-family: imdbfont;
+    font-size: 17px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.celebrities .title-cel h2 svg {
+    width: 25px;
+    height: 25px;
+}
+
+.celebrities .title-cel span {
+    color: rgb(245, 197, 24);
+    font-family: imdbfont;
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+.celebrities .celebrity {
+    width: 90%;
+}
+
+.celebrities .celebrity .swiper-slide img {
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.celebrities .celebrity .actors-info {
+    display: flex;
+    flex-flow: column wrap;
+    cursor: pointer;
+}
+
+/* ranking */
+.celebrity .ranking {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.celebrity .ranking span:nth-of-type(1) {
+    font-family: imdbfont;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.celebrity .ranking span:nth-of-type(2) {
+    font-family: imdbfont;
+    color: rgb(148, 148, 148);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.celebrity .swiper-slide>span {
+    font-family: imdbfont;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.celebrity .swiper-slide {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.celebrities .celebrity .swiper-button-next {
+    display: none;
+}
+
+.celebrities .celebrity .swiper-button-prev {
+    display: none;
+}

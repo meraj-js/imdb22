@@ -1,0 +1,269 @@
+{
+    "banner":[
+        {"id":1,"title":"Red Sonja","description":"whatch the Trailer" , "bannerurl":"https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg","banneralt":"banner movie1" , "pasterurl":"https://m.media-amazon.com/images/M/MV5BMzU2MGI2NGEtZGZlZC00NjQxLThkMWMtMzZlNDY4Mjk4ZThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg","posteralt":"poster movie1","view":"288","likes":"158","time":"2:25"},
+
+        {"id":2,"title":"stranger Things","description":"The Final Season Begins Nov.26" , "bannerurl":"https://m.media-amazon.com/images/M/MV5BYzI2ZDczN2YtZjg4OC00NGQ5LWIxYzQtMTFkOWE2ZmY4YWNmXkEyXkFqcGc@._CR532,177,4888,2750_QL75_UX1000_CR0,0,1000,563_.jpg","banneralt":"banner movie2" , "pasterurl":"https://m.media-amazon.com/images/M/MV5BMjg2NmM0MTEtYWY2Yy00NmFlLTllNTMtMjVkZjEwMGVlNzdjXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","posteralt":"poster movie2","view":"1.1K","likes":"604","time":"2:36"},
+
+        {"id":3,"title":"Tron:Ares", "description":"whatch the New Trailer" ,"bannerurl":"https://m.media-amazon.com/images/M/MV5BZWU2MWRiNjYtMWNlZi00YjM5LThkOWItODc4OTc2YTAyMDQ0XkEyXkFqcGc@._CR419,513,3277,1843_QL75_UY563_CR0,0,1000,563_.jpg","banneralt":"banner movie3" , "pasterurl":"https://m.media-amazon.com/images/M/MV5BYzk0NjE4NzYtZjc5Ni00MTkxLTgyY2QtZjliOTA5N2U2YzM1XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","posteralt":"poster movie3","view":"251","likes":"193","time":"2:25"},
+
+        {"id":4,"title":"Alien:Earth ","description":"whatch the New Trailer" , "bannerurl":"https://m.media-amazon.com/images/M/MV5BZGNmYThjYjUtMWNjOC00MjIyLTgzZDQtZjA4OWU3OTM5ZmI1XkEyXkFqcGdeQWFybm8@._V1_QL40_QL75_UX1000_CR0,0,1000,563_.jpg","banneralt":"banner movie4" , "pasterurl":"https://m.media-amazon.com/images/M/MV5BYjA3NjVmNGYtOWZiZS00N2I1LWIwNDEtNmE4YjAyMTQ4NjQ0XkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","posteralt":"poster movie4","view":"161","likes":"47","time":"1:38"},
+
+        {"id":5,"title":"Indian Movies", "description":"whatch Now" ,"bannerurl":"https://m.media-amazon.com/images/M/MV5BYWZjOTAxZGYtYjlmMC00MzAyLTg3MzgtODI1OTI5MjA0M2ZmXkEyXkFqcGdeQWJpbndhYWtz._CR0,0,1280,720_QL75_UX1000_CR0,0,1000,563_.jpg","banneralt":"banner movie5" , "pasterurl":"https://m.media-amazon.com/images/M/MV5BOTk3MDljY2YtYjVjNy00ZDhjLWI1ZWUtMDgwZTIyNjlkZGQxXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","posteralt":"poster movie5","view":"251","likes":"167","time":"3:36"},
+
+        {"id":6,"title":"The 'Zombies 4' Cast ", "description":"whatch the Game" ,"bannerurl":"https://m.media-amazon.com/images/M/MV5BOTkxMWY4MTgtYjNlZC00NjJmLTlhOWUtYjRmNjU4ZTI0NjI5XkEyXkFqcGdeQXRyZXdlcw@@._V1_QL40_QL75_UX1000_CR0,0,1000,563_.jpg","banneralt":"banner movie6" , "pasterurl":"https://m.media-amazon.com/images/M/MV5BOTk3MDljY2YtYjVjNy00ZDhjLWI1ZWUtMDgwZTIyNjlkZGQxXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","posteralt":"poster movie6","view":"127","likes":"57","time":"10:51"},
+
+        {"id":7,"title":"After The Hunt", "description":"See Luca Guadagnino's New Film" ,"bannerurl":"https://m.media-amazon.com/images/M/MV5BZWMzYzJjNDctNDk1OC00NjE4LTg4ODktNWMzNDhkYzY0MGFmXkEyXkFqcGdeQWRpZWdtb25n._CR63,36,1567,882_QL75_UX1000_CR0,0,1000,563_.jpg","banneralt":"banner movie7" , "pasterurl":"https://m.media-amazon.com/images/M/MV5BNzVkNGZjYWItMmIxYi00MGE2LWE3NjctNzc2NDM4OTNmMTBlXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","posteralt":"poster movie7","view":"145","likes":"54","time":"2:56"}
+    ],
+
+    "aboutmovies":[
+        {"id":1,"title":"Tron:Ares","description":"whatch the New Trailer","movieurl":"https://m.media-amazon.com/images/M/MV5BYzk0NjE4NzYtZjc5Ni00MTkxLTgyY2QtZjliOTA5N2U2YzM1XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","moviealt":"movie1","view":"251","likes":"151","time":"2:25"},
+
+        {"id":2,"title":"The Summer I Turned Pretty","description":"whatch the Game","movieurl":"https://m.media-amazon.com/images/M/MV5BOTk3MDljY2YtYjVjNy00ZDhjLWI1ZWUtMDgwZTIyNjlkZGQxXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","moviealt":"movie2","view":"52","likes":"37","time":"3:36"},
+
+        {"id":3,"title":"The Map That Leads to You","description":"whatch the New Trailer","movieurl":"https://m.media-amazon.com/images/M/MV5BMzRmN2ZkYjQtZTRiZC00N2NmLWJmZWUtNzYyNmZmYzFmMTExXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","moviealt":"movie3","view":"181","likes":"65","time":"2:19"}
+    ],
+
+    "Featuredtoday":[
+        {"id":1,"title":"Staff Picks: What to Watch in July","seemore":"See our picks","Featuredurl":"https://m.media-amazon.com/images/M/MV5BZTA4ZGVmZTQtNDU4Ni00NGQwLTg2NDUtYTMyYmQwYmNlZDIyXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today1"},
+
+        {"id":2,"title":"Before They Were Famous: Actors' Early Roles","seemore":"See the gallery","Featuredurl":"https://m.media-amazon.com/images/M/MV5BODkxMzM1MjItZWQwZi00Y2IyLTk0Y2EtMWVhMjRlYjFmNTY4XkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today2"},
+
+        {"id":3,"title":"Disability Community Stars to Watch","seemore":"See the gallery","Featuredurl":"https://m.media-amazon.com/images/M/MV5BZjU3YmY1N2ItNjkyOS00ODI5LTgzOWYtZmE4MzYxYzJiNDYxXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today3"},
+
+        {"id":4,"title":"Most Anticipated Indian Movies: July-December 2025","seemore":"See the list","Featuredurl":"https://m.media-amazon.com/images/M/MV5BMzE0YTJmNjEtMjUzOC00YThkLWJmZWUtMzZhODYxOWVhYWNjXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today4"},
+
+        {"id":5,"title":"TV Tracker: Renewed and Canceled Shows","seemore":"Check the status","Featuredurl":"https://m.media-amazon.com/images/M/MV5BZmUyNWI4MzctMTljMC00YzM4LTk2ODUtMTllZDY5YmVjN2MwXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today5"},
+
+        {"id":6,"title":"IMDb Summer Watch Guide","seemore":"Browse the guide","Featuredurl":"https://m.media-amazon.com/images/M/MV5BMWY0YjBlOWMtYzA2Ni00YWY0LTg4YTEtZDM2OTc2MzgyYjNkXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today6"},
+
+        {"id":7,"title":"Most Popular Indian Movies of 2025 So Far","seemore":"See the list","Featuredurl":"https://m.media-amazon.com/images/M/MV5BNDEyNWYwZWMtMDExOC00OWY5LWE2OTItNzBjZTE5ZjhiNjE2XkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today7"},
+
+        {"id":8,"title":"New Horror Releases in July 2025","seemore":"See the calendar","Featuredurl":"https://m.media-amazon.com/images/M/MV5BZjkzMDIwM2QtOTk4Yy00NDQ5LWJkMTEtZWQ4ZjY4NjFmOWYwXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today8"},
+
+        {"id":9,"title":"Theatrical Releases You Can Stream or Rent","seemore":"See the list","Featuredurl":"https://m.media-amazon.com/images/M/MV5BOTdiODNjOTItNTFhNy00M2Q1LWE3ZTctNjMxY2RjMWQzOWYyXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today9"},
+
+        {"id":10,"title":"The Latest (and Greatest) New Posters","seemore":"See more posters","Featuredurl":"https://m.media-amazon.com/images/M/MV5BNjdiNjQ3OGYtZTQ0My00NGY5LTkyZTYtNWZhZDQ2MzYyOTRiXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","Featuredalt":"Featured today10"}
+    ],
+
+    "Celebrity":[
+        {"id":1,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BNDZjMjFlODYtZDljNi00MjA1LWJlMWItZDFjNTdjYTU1ZDY0XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" , "celebrityalt":"celebrity1","ranking1":"34","ranking2":"3,390","name":"Sara Sampaio"},
+        {"id":2,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BZDNiMGVkNGUtOWZjMy00MTU0LWFmM2ItMTA5Y2FlMjBjNmJkXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg","celebrityalt":"celebrity2","ranking1":"35","ranking2":"2,549","name":"Edi Gathegi"},
+        {"id":3,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTFmZTY1MDgtMGZlOS00NGFlLWIxOTEtZTk4NTQ2NTM2MGE0XkEyXkFqcGc@._V1_QL75_UX280_CR0,25,280,280_.jpg","celebrityalt":"celebrity3","ranking1":"1","ranking2":"22","name":"David Corenswet"},
+        {"id":4,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BZDAwNmJmYjctMDk0YS00NGI1LWJlOGEtNGZhODgyNjFjN2ZjXkEyXkFqcGc@._V1_CR1269,127,1496,2244_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity4","ranking1":"2","ranking2":"58","name":"Rachel Brosnaham"},
+        {"id":5,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BZDE2YjY4ODUtZjVmMy00ZmE2LTgwZjgtMWJiZGI0NWY3ODAzXkEyXkFqcGc@._V1_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity5","ranking1":"3","ranking2":"39","name":"Nicholas Hoult"},
+        {"id":6,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMjU5MzFiMDAtYjc5Mi00ZjYyLWI3NjYtM2NmMGJhOTAyNDMyXkEyXkFqcGc@._V1_QL75_UY280_CR109,0,280,280_.jpg","celebrityalt":"celebrity6","ranking1":"5","ranking2":"626","name":"Maggie Q"},
+        {"id":7,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTI3Mzc2ODEyMF5BMl5BanBnXkFtZTYwODkwNTA0._V1_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity7","ranking1":"6","ranking2":"4","name":"Julian McMahon"},
+        {"id":8,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BYmFmYjBiYjQtNDA3NS00ZTA5LTliNmEtNmExYTc2MDJiMmZlXkEyXkFqcGc@._V1_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity8","ranking1":"7","ranking2":"81","name":"Isabela Merced"},
+        {"id":9,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTY5NjgyNDU3OV5BMl5BanBnXkFtZTgwNzA4NDczNjE@._V1_QL75_UX280_CR0,0,280,280_.jpg","celebrityalt":"celebrity9","ranking1":"8","ranking2":"5","name":"Kerry Condon"},
+        {"id":10,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_QL75_UX280_CR0,25,280,280_.jpg","celebrityalt":"celebrity10","ranking1":"10","ranking2":"6","name":"Brad Pitt"},
+        {"id":11,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_QL75_UX280_CR0,0,280,280_.jpg","celebrityalt":"celebrity11","ranking1":"11","ranking2":"1","name":"Scarlett Johansson"},
+        {"id":12,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BZjFkMGY4YTgtNzdkMy00MDI5LTlhZjktOGNmYzVkMTVmZjQzXkEyXkFqcGc@._V1_QL75_UX280_CR0,1,280,280_.jpg","celebrityalt":"celebrity12","ranking1":"9","ranking2":"17,897","name":"Bo Bragason"},
+        {"id":13,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BOTMyNjk0YjgtMGQ2MS00YWFkLWJjZmQtNTcyYzg1YmFlMTNmXkEyXkFqcGc@._V1_CR0,1,465,698_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity13","ranking1":"10","ranking2":"2","name":"Angela Sarafyan"},
+        {"id":14,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BM2JlMDdmNzEtYzFhNy00OWJlLWJhMjUtODRmNTc0ZTdmNTA5XkEyXkFqcGc@._V1_QL75_UX280_CR0,5,280,280_.jpg","celebrityalt":"celebrity14","ranking1":"13","ranking2":"-","name":"Mikaela Hoover"},
+        {"id":15,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BODQ1ZDc2NWYtNzI0Yi00YTllLTgyMGQtZjMwNDcyOGE4OWQ5XkEyXkFqcGc@._V1_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity15","ranking1":"6","ranking2":"262","name":"Eric Bana"},
+        {"id":16,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BZWNlYmQ3MzctNTM4OC00Mjk5LTlmM2EtNTU4MjgxMjNiZGEyXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg","celebrityalt":"celebrity16","ranking1":"20","ranking2":"10","name":"Padro Pascal"}
+    ],
+
+    "Top10":[
+        {"id":1,"title":"1.Superman","topMovieurl":"https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","topmoviealt":"movie1","ranking":"7.6","watchlist":"Watchlist"},
+        {"id":2,"title":"2.Untamed","topMovieurl":"https://m.media-amazon.com/images/M/MV5BODkxMDM5YWItNDcxZi00NjQ3LWE3NzMtNjM0MzgyNWM0MDhhXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","topmoviealt":"movie2","ranking":"7.3","watchlist":"Watchlist"},
+        {"id":3,"title":"3.Dexter: Resurrection","topMovieurl":"https://m.media-amazon.com/images/M/MV5BMzgxNzUwZTctMzliNi00MDUwLWE4YzctNjgwMDE2OWQwNzMxXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","topmoviealt":"movie3","ranking":"9.1","watchlist":"Watchlist"},
+        {"id":4,"title":"4.I Know What you Did Last Summer","topMovieurl":"https://m.media-amazon.com/images/M/MV5BNjE2Y2UyNmItZDQyZS00ZjE1LThmMWMtNTVmYzMxOTgwNmVlXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","topmoviealt":"movie4","ranking":"5.7","watchlist":"Watchlist"},
+        {"id":5,"title":"5.Jurassic World:Rebirth","topMovieurl":"https://m.media-amazon.com/images/M/MV5BMDE1N2EzMjAtMDY1My00YWE5LWEyYjYtYmE3YjZjNzQwNDhmXkEyXkFqcGc@._V1_QL75_UY414_CR5,0,280,414_.jpg","topmoviealt":"movie5","ranking":"6.2","watchlist":"Watchlist"},
+        {"id":6,"title":"6.Ballard","topMovieurl":"https://m.media-amazon.com/images/M/MV5BNmZlN2MzNGQtMTg4Yy00N2RmLThkZWQtMjVmMmE3MmY4ODIwXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","topmoviealt":"movie6","ranking":"7.7","watchlist":"Watch options"},
+        {"id":7,"title":"7.F1:The Movie","topMovieurl":"https://m.media-amazon.com/images/M/MV5BZTYwYjJhNzYtY2ZiZS00ZmYxLWJkZjctYjRlNGIxYjI3ZTU0XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","topmoviealt":"movie7","ranking":"7.9","watchlist":"Watchlist"},
+        {"id":8,"title":"8.Sinners","topMovieurl":"https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","topmoviealt":"movie8","ranking":"7.7","watchlist":"Watchlist"},
+        {"id":9,"title":"9.The Amateur","topMovieurl":"https://m.media-amazon.com/images/M/MV5BYjhkZjM3ZWYtMjUxMS00YzhlLTkxZWYtMzhkMzFhOTQ1NjRkXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","topmoviealt":"movie9","ranking":"6.5","watchlist":"Watchlist"},
+        {"id":10,"title":"10.How to Train your Dragon","topMovieurl":"https://m.media-amazon.com/images/M/MV5BODA5Y2M0NjctNWQzMy00ODRhLWE0MzUtYmE1YTAzZjYyYmQyXkEyXkFqcGc@._V1_QL75_UX280_CR0,14,280,414_.jpg","topmoviealt":"movie10","ranking":"8.0","watchlist":"Watchlist"}
+    ],
+    "fanfavorites":[
+        {"id":1,"title":"Superman","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","fanfavoritesalt":"movie1","ranking":"7.6","watchlist":"Watch options"},
+
+        {"id":2,"title":"F1:The Movie","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BZTYwYjJhNzYtY2ZiZS00ZmYxLWJkZjctYjRlNGIxYjI3ZTU0XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie2","ranking":"7.9","watchlist":"Watch options"},
+
+        {"id":3,"title":"Sinners","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie3","ranking":"7.7","watchlist":"Watch options"},
+
+        {"id":4,"title":"Saiyaara","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNTEyYjI2NjEtMjU1Ni00Yzc1LWFmZTQtNmQzM2FhYzE2MjNlXkEyXkFqcGc@._V1_QL75_UY414_CR16,0,280,414_.jpg","fanfavoritesalt":"movie4","ranking":"8.1","watchlist":"Watch options"},
+
+        {"id":5,"title":"How to Train your Dragon","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BODA5Y2M0NjctNWQzMy00ODRhLWE0MzUtYmE1YTAzZjYyYmQyXkEyXkFqcGc@._V1_QL75_UX280_CR0,14,280,414_.jpg","fanfavoritesalt":"movie5","ranking":"8.0","watchlist":"Watch options"},
+
+        {"id":6,"title":"Thunderbolts","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BYWE2NmNmYTItZGY0ZC00MmY2LTk1NDAtMGUyMGEzMjcxNWM0XkEyXkFqcGc@._V1_QL75_UY414_CR7,0,280,414_.jpg","fanfavoritesalt":"movie6","ranking":"7.3","watchlist":"Watch options"},
+
+        {"id":7,"title":"Ballerina","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNzdhZmY2OTQtYWI4OC00ZThkLTlhZjAtNzE2YzRjM2Q5YjJlXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie7","ranking":"7.0","watchlist":"Watch options"},
+
+        {"id":8,"title":"Squid Game","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie8","ranking":"8.0","watchlist":"Watch options"},
+
+        {"id":9,"title":"Untamed","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BODkxMDM5YWItNDcxZi00NjQ3LWE3NzMtNjM0MzgyNWM0MDhhXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie9","ranking":"7.3","watchlist":"Watch options"},
+
+        {"id":10,"title":"28 Years Later","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNjgwYTI0YjctMWYzNS00MmI1LWI5YTctNmE1YjBkNDFlNWMxXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","fanfavoritesalt":"movie10","ranking":"7.1","watchlist":"Watch options"},
+
+        {"id":11,"title":"Dept. Q","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNWQ3MDQ2MGQtOGM0MC00MzlkLWE0ODQtYzE4Zjc3Mjc1ZWI5XkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","fanfavoritesalt":"movie11","ranking":"8.2","watchlist":"Watch options"},
+
+        {"id":12,"title":"Breaking Bad","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie12","ranking":"9.5","watchlist":"Watch options"},
+
+        {"id":13,"title":"Ballard","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNmZlN2MzNGQtMTg4Yy00N2RmLThkZWQtMjVmMmE3MmY4ODIwXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie13","ranking":"7.7","watchlist":"Watch options"},
+
+        {"id":14,"title":"interstellar","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie14","ranking":"7.1","watchlist":"Watch options"}
+    ],
+    "Popularmovies":[
+        {"id":"1","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMTM2MzY1ODc1Nl5BMl5BanBnXkFtZTcwNTg4OTY3Nw@@._V1_QL75_UX1000_CR0,0,1000,563_.jpg","pmoviesalt":"pmovie1","title":"Superhero"},
+        {"id":"2","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMjIzMjE3MTI1NF5BMl5BanBnXkFtZTgwNzE3MTgyNDM@._V1_QL75_UX1000_CR0,94,1000,563_.jpg","pmoviesalt":"pmovie2","title":"Coming-of-Age"},
+        {"id":"3","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BZTQ1MmFmYmUtNWI4YS00YjJhLTk0YzgtZGM4ODQ4N2ZkYTAzXkEyXkFqcGc@._V1_QL75_UY563_CR170,0,1000,563_.jpg","pmoviesalt":"pmovie3","title":"Slasher Horror"},
+        {"id":"4","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BOWNmOTliZjgtMmRkYy00Zjk5LThiMWQtNDYxZmUzN2QzNzdiXkEyXkFqcGc@._V1_QL75_UX1000_CR0,0,1000,563_.jpg","pmoviesalt":"pmovie4","title":"Raunchy Comedy"},
+        {"id":"5","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMTkxOTA2OTgzM15BMl5BanBnXkFtZTgwOTgzMzI5NzM@._V1_QL75_UX1000_CR0,52,1000,563_.jpg","pmoviesalt":"pmovie5","title":"Dark Comedy"},
+        {"id":"6","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMWM3ZjRhMDQtZDUzYi00NWY0LThhMDQtZTM2MjZmNjRlMTRmXkEyXkFqcGc@._V1_QL75_UY563_CR172,0,1000,563_.jpg","pmoviesalt":"pmovie6","title":"Thriller"},
+        {"id":"7","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMjU5NjQyNTcwOV5BMl5BanBnXkFtZTcwMzc3NzUyMw@@._V1_QL75_UX1000_CR0,52,1000,563_.jpg","pmoviesalt":"pmovie7","title":"Comedy"},
+        {"id":"8","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMGYzOTdhY2EtZjYwYi00ZjhmLWIwNjQtZjc1OWNmODcyOWMzXkEyXkFqcGc@._V1_QL75_UY563_CR25,0,1000,563_.jpg","pmoviesalt":"pmovie8","title":"Anime"},
+        {"id":"9","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BOTA4MWQxNTQtOWRlNS00ZTQ0LWI5NmEtZjRmYTAxMTk5ZDU0XkEyXkFqcGc@._V1_QL75_UY563_CR23,0,1000,563_.jpg","pmoviesalt":"pmovie9","title":"Horror"},
+        {"id":"10","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMTg4MDEyODA0NF5BMl5BanBnXkFtZTgwMzUxNDE2MzI@._V1_QL75_UY563_CR18,0,1000,563_.jpg","pmoviesalt":"pmovie10","title":"Dystopian Sci-Fi"},
+        {"id":"11","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BNTc3Yzg0ZGItMzdmMS00OTVkLWE0NTgtM2VlMjUzYWIwNmY3XkEyXkFqcGc@._V1_QL75_UX1000_CR0,18,1000,563_.jpg","pmoviesalt":"pmovie11","title":"Sitcom"},
+        {"id":"12","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BOTFhMzgwNzQtNTYzMS00NDdlLWJkMjYtMGY3ZGY5NjZjYjliXkEyXkFqcGc@._V1_QL75_UX1000_CR0,89,1000,563_.jpg","pmoviesalt":"pmovie12","title":"Gangster"},
+        {"id":"13","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BOTkxMzc0MDg5MV5BMl5BanBnXkFtZTcwNjUxMzA4NA@@._V1_QL75_UX1000_CR0,56,1000,563_.jpg","pmoviesalt":"pmovie13","title":"Sci-Fi"},
+        {"id":"14","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BNDY5ZTkyYTQtNTZmMC00YTU2LTg1NjItMjE4MDZhYmNiZTRiXkEyXkFqcGc@._V1_QL75_UX1000_CR0,52,1000,563_.jpg","pmoviesalt":"pmovie14","title":"Fantacy Epic"},
+        {"id":"15","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BY2M4MTFlOWMtYzhiYS00OGI3LTg0ODItODk3ODVjMzIyMmMyXkEyXkFqcGc@._V1_QL75_UX1000_CR0,52,1000,563_.jpg","pmoviesalt":"pmovie15","title":"Crime"},
+        {"id":"16","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMzI3NTUyNTg0NF5BMl5BanBnXkFtZTcwNTk2NDcwNw@@._V1_QL75_UX1000_CR0,53,1000,563_.jpg","pmoviesalt":"pmovie16","title":"Biography"},
+        {"id":"17","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BYjFmZTQyZjktYTBjOS00YjFiLWFhNDEtOTY5YmRmNDJhMDlkXkEyXkFqcGc@._V1_QL75_UX1000_CR0,52,1000,563_.jpg","pmoviesalt":"pmovie17","title":"Drama"},
+        {"id":"18","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMTlmNjQxNGItMmM1My00YTk2LTk2NjYtNTc4YWFjYTgxNTRiXkEyXkFqcGc@._V1_QL75_UY563_CR162,0,1000,563_.jpg","pmoviesalt":"pmovie18","title":"Adventure"},
+        {"id":"19","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BYTczMGFjOGUtZDJlMy00NWE2LWI5MGYtZWRkOThlZDllNjEwXkEyXkFqcGc@._V1_QL75_UX1000_CR0,0,1000,563_.jpg","pmoviesalt":"pmovie19","title":"War"},
+        {"id":"20","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMTUzNjg4NjA1M15BMl5BanBnXkFtZTgwMjI0OTcyMDI@._V1_QL75_UX1000_CR0,52,1000,563_.jpg","pmoviesalt":"pmovie20","title":"One-Person Army Action"},
+        {"id":"21","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BMDU4ZmM1NjYtNGY2MS00NmE1LThiMzAtNzU3NWZhYmM0ZjgxXkEyXkFqcGc@._V1_QL75_UX1000_CR0,0,1000,563_.jpg","pmoviesalt":"pmovie21","title":"Action"},
+        {"id":"22","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BZjgwNzRkZWYtZjA5YS00MmU4LWE3NmQtOWI1OTQxNjQ4MzcwXkEyXkFqcGc@._V1_QL75_UX1000_CR0,20,1000,563_.jpg","pmoviesalt":"pmovie22","title":"Suspense Mystery"},
+        {"id":"23","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BNWEwY2NjZjItMzA5Zi00ZDU0LTljOWItOGZiODJhMGE5MTIyXkEyXkFqcGc@._V1_QL75_UX1000_CR0,0,1000,563_.jpg","pmoviesalt":"pmovie23","title":"Supernatural Horror"},
+        {"id":"24","pmoviesurl":"https://m.media-amazon.com/images/M/MV5BZjdhOTYwZTktNzUwOS00MWJiLWI0ZDgtN2ZhNzhlZTUzNmM4XkEyXkFqcGc@._V1_QL75_UX1000_CR0,59,1000,563_.jpg","pmoviesalt":"pmovie24","title":"Dark Fantasy"}
+    ],
+    "originals":[
+        {"id":1,"originalurl":"https://m.media-amazon.com/images/M/MV5BY2VkNzNiMzktOTBjYS00OGM3LThiZDUtYjhjODRiYmQzY2NhXkEyXkFqcGdeQWFsZWxvZw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","originalalt":"originals1","title":"5 Things Director Ilya Naishuller Needs on Set","seemore":"Watch the interview","view":"48","likes":"25","time":"7:47"},
+        {"id":2,"originalurl":"https://m.media-amazon.com/images/M/MV5BNDBiNjg1NmQtMmFkMy00YWNhLThmMzItYmM4Zjg0ZDEwYmY5XkEyXkFqcGc@._CR24,770,2611,1469_QL75_UX760_CR0,0,760,428_.jpg","originalalt":"originals2","title":"James Gunn Talks 'Superman' and DC's Future","seemore":"Watch the interview","view":"179","likes":"67","time":"10:51"},
+        {"id":3,"originalurl":"https://m.media-amazon.com/images/M/MV5BYzBkYTgzOTctZTUyYi00NzI1LTkwZmItMGU5OTQ5Y2VlMzU0XkEyXkFqcGdeQWFsZWxvZw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","originalalt":"originals3","title":"How Well Does the 'Superman' Cast Know Each Other?","seemore":"Watch the interview","view":"421","likes":"267","time":"4:59"},
+        {"id":4,"originalurl":"https://m.media-amazon.com/images/M/MV5BODVhMzA5ZWEtNzcxOC00OTFkLTliNWEtMTRmNTk4NGVhNjViXkEyXkFqcGdeQXRyZXdlcw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","originalalt":"originals4","title":"The 'Zombies 4' Cast Open Our Mystery Box","seemore":"Watch the Game","view":"131","likes":"59","time":"4:34"},
+        {"id":5,"originalurl":"https://m.media-amazon.com/images/M/MV5BNWJlNDUyZmUtNDc5MS00ZDUxLWE1M2YtMjYxNDhmYmRiZmE2XkEyXkFqcGdeQXRyZXdlcw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","originalalt":"originals5","title":"Oscar Isaac and Mia Goth Talk 'Frankenstein'","seemore":"Watch now","view":"164","likes":"55","time":"1:21"},
+        {"id":6,"originalurl":"https://m.media-amazon.com/images/M/MV5BNDRhNGY2YjctYTQ5Yy00Mzg0LThiN2EtZjljNTFmNjFiZTg1XkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX760_CR0,0,760,428_.jpg","originalalt":"originals6","title":"What it's Like to Be Part of the Jurassic Park Franchise","seemore":"Watch the interview","view":"177","likes":"71","time":"4:50"},
+        {"id":7,"originalurl":"https://m.media-amazon.com/images/M/MV5BNGE0ZWVhZmUtOTAwNS00NzgzLTk3ZmMtMGNkYTNmN2NjN2RkXkEyXkFqcGdeQWFybm8@._V1_QL75_UX760_CR0,0,760,428_.jpg","originalalt":"originals7","title":"The 'I Know What You Did Last Summer' Cast Get Quizzed","seemore":"Watch now","view":"99","likes":"46","time":"3:33"}
+    ],
+    "streaming":[
+        {"id":1,"title":"Ballard","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNmZlN2MzNGQtMTg4Yy00N2RmLThkZWQtMjVmMmE3MmY4ODIwXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie1","ranking":"7.7","watchlist":"Watch now"},
+
+        {"id":2,"title":"Star Track: strange new Worlds","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BOWY1Y2ZlNzctMzIwMi00NTM3LWJiNDUtMTZmYWY0Y2NmZmE2XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie2","ranking":"7.3","watchlist":"Watch now"},
+
+        {"id":3,"title":"Heads of State","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BYWFmNjg0ZGMtZmI5OC00YTAwLWFiMmMtOWRkNzQ0OTE1YWEwXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie3","ranking":"6.4","watchlist":"Watch now"},
+
+        {"id":4,"title":"We Wre Liars","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNTg5NTY0NzctOTM4OC00MDQxLTliMzItOWYyN2I0OWJjZTdkXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie4","ranking":"6.7","watchlist":"Watch now"},
+
+        {"id":5,"title":"Countdown","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BYzc4MmIzNzgtMmY5MC00NzNlLTgxNjUtZWE4NDAzNjFjYTlmXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie5","ranking":"6.8","watchlist":"Watch now"},
+
+        {"id":6,"title":"It's Always Sunny","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BMTFiMDg5ZTItNWU2Ni00YzJlLWE4NTQtZjUwNWFhOTViYTk2XkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","fanfavoritesalt":"movie6","ranking":"8.8","watchlist":"Watch now"},
+
+        {"id":7,"title":"Animal Kingdom","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNjFjOGU5NTUtZTYwNy00NDhmLTk2NjgtOTc2MTUwMTgzNTY3XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie7","ranking":"8.2","watchlist":"Watch now"},
+
+        {"id":8,"title":"Bosch","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNjhlNDQ5MzQtMzAxYy00MmYwLTgzYmItMzNhMzNiNzdhYzI2XkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","fanfavoritesalt":"movie8","ranking":"8.5","watchlist":"Watch now"},
+
+        {"id":9,"title":"The Boys","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BMWJlN2U5MzItNjU4My00NTM2LWFjOWUtOWFiNjg3ZTMxZDY1XkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg","fanfavoritesalt":"movie9","ranking":"8.6","watchlist":"Watch now"},
+
+        {"id":10,"title":"House","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BMjgxYjAwNmMtYTAwZC00YmQxLWJlOTMtMWM0NGJmNDE0YmI2XkEyXkFqcGc@._V1_QL75_UY414_CR1,0,280,414_.jpg","fanfavoritesalt":"movie10","ranking":"8.7","watchlist":"Watch now"},
+
+        {"id":11,"title":"The Accountant 2","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BYjFiY2I0NTEtNjdjNy00MTljLThkOWYtMzNiYjYyMDcxYjhkXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie11","ranking":"8.2","watchlist":"Watch now"},
+
+        {"id":12,"title":"Nosferatu","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BY2FhZGE3NmEtNWJjOC00NDI1LWFhMTQtMjcxNmQzZmEwNGIzXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie12","ranking":"7.2","watchlist":"Watch now"},
+
+        {"id":13,"title":"Deep Cover","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNjQ5ZTJjZTEtZWRiOC00NGM3LTg5NGItMTkxZmJmZjg5NzA3XkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie13","ranking":"6.7","watchlist":"Watch now"},
+
+        {"id":14,"title":"The Better Sister","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNmFmNTY5NDAtNWE0YS00NDNmLWFhYjItZjY2YjQxY2Y0NmUxXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie14","ranking":"7.0","watchlist":"Watch now"},
+
+        {"id":15,"title":"Reacher","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BMzdjYWZlMDQtYzdhNi00NmRlLTg2NzUtMTI3MWFhZDliNjBiXkEyXkFqcGc@._V1_QL75_UX280_CR0,42,280,414_.jpg","fanfavoritesalt":"movie15","ranking":"8.0","watchlist":"Watch now"},
+
+        {"id":16,"title":"Midsomer Murders","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BY2U5MzA2MjctMTIzMS00ZjYxLTljMmMtNDkzZjY4YTQ0MTJiXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","fanfavoritesalt":"movie16","ranking":"7.9","watchlist":"Watch now"},
+
+        {"id":17,"title":"Bones","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BMjA3ODMxMzM5NF5BMl5BanBnXkFtZTgwMDM1NjU0OTE@._V1_QL75_UX280_CR0,9,280,414_.jpg","fanfavoritesalt":"movie17","ranking":"7.8","watchlist":"Watch now"},
+
+        {"id":18,"title":"Twisters","fanfavoritesurl":"https://m.media-amazon.com/images/M/MV5BNjM4MWEwMTEtNTcwYi00ZDI4LWEwMzUtNDMzODBhZmI5MWE1XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","fanfavoritesalt":"movie18","ranking":"6.5","watchlist":"Watch now"}
+
+    ],
+    "intheaters":[
+        {"id":1,"title":"The Voyeurs","intheatersurl":"https://m.media-amazon.com/images/M/MV5BOTQ5NDVjZjAtZDM4NC00NmQzLTkwZmYtYjQ1YjQ5NDJjZjFlXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie1","ranking":"6.1"},
+
+        {"id":2,"title":"Chehre","intheatersurl":"https://m.media-amazon.com/images/M/MV5BNGUwMTZjYTMtY2RmMC00N2MxLWE0MjktZGRiNjAwNjk3ZTQ5XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie2","ranking":"6.2"},
+
+        {"id":3,"title":"Cinderella","intheatersurl":"https://m.media-amazon.com/images/M/MV5BZjdjNTYwYjQtYTBmNC00MjRlLTljZTctZDBiNTY5NWFiZDhhXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie3","ranking":"4.4"},
+
+        {"id":4,"title":"The Tomorrow War","intheatersurl":"https://m.media-amazon.com/images/M/MV5BYmUyNzY2YWYtNWQ0My00ODMwLTkwOTQtOTA0ZjM0MjRmYjJiXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie4","ranking":"6.6"},
+
+        {"id":5,"title":"Black as Night","intheatersurl":"https://m.media-amazon.com/images/M/MV5BZmQ5ZGNhY2YtNzJlYS00YTY5LWI0MjUtNGVjNzE5NGYxM2MwXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie5","ranking":"4.5"},
+
+        {"id":6,"title":"The Manor","intheatersurl":"https://m.media-amazon.com/images/M/MV5BZjg1NjQ2MTgtZTcwMi00NGUzLWE5NzgtMGU5Y2Y4OWY3OWIxXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie6","ranking":"5.3"},
+
+        {"id":7,"title":"Bingo Hell","intheatersurl":"https://m.media-amazon.com/images/M/MV5BNThkNmM4OGMtYWQzZS00NDQzLWJhMTktZThkNDg0NDIwODY3XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie7","ranking":"4.3"},
+
+        {"id":8,"title":"Shershaah","intheatersurl":"https://m.media-amazon.com/images/M/MV5BZTAzNzg0OGUtZmY1My00Y2VmLTk2YzYtNDU3MjlmNzU5ZjE3XkEyXkFqcGc@._V1_QL75_UY414_CR16,0,280,414_.jpg","intheatersalt":"movie8","ranking":"8.3"},
+
+        {"id":9,"title":"Madres","intheatersurl":"https://m.media-amazon.com/images/M/MV5BN2IzNGQ4ZDItMWEzZC00ODRhLTkxZjUtMDJiNTk1Mjg4MDNmXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie9","ranking":"4.9"},
+
+        {"id":10,"title":"Thalaivi","intheatersurl":"https://m.media-amazon.com/images/M/MV5BMDAyZWU5N2YtMzY0OC00YzJjLTljNzctMDdhMmFiODcwNzY5XkEyXkFqcGc@._V1_QL75_UY414_CR14,0,280,414_.jpg","intheatersalt":"movie10","ranking":"5.9"},
+
+        {"id":11,"title":"Bellbottom","intheatersurl":"https://m.media-amazon.com/images/M/MV5BMzNhOGJiMDQtYzBmOC00OGY2LTg0ZDUtYTBjMTI5MTA4M2NjXkEyXkFqcGc@._V1_QL75_UY414_CR3,0,280,414_.jpg","intheatersalt":"movie11","ranking":"6.1"},
+
+        {"id":12,"title":"Sound of Metal","intheatersurl":"https://m.media-amazon.com/images/M/MV5BMWE5ZmYwNDEtYTYwMS00MTc0LTk2ZWItZTM1MjQ1ZDYzZGUzXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie12","ranking":"7.7"},
+
+        {"id":13,"title":"Beautiful Boy","intheatersurl":"https://m.media-amazon.com/images/M/MV5BNjQ5ZTJjZTEtZWRiOC00NGM3LTg5NGItMTkxZmJmZjg5NzA3XkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","intheatersalt":"movie13","ranking":"7.4"},
+
+        {"id":14,"title":"Without Remorse","intheatersurl":"https://m.media-amazon.com/images/M/MV5BNmFmNTY5NDAtNWE0YS00NDNmLWFhYjItZjY2YjQxY2Y0NmUxXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg","intheatersalt":"movie14","ranking":"5.8"},
+
+        {"id":15,"title":"Bliss","intheatersurl":"https://m.media-amazon.com/images/M/MV5BMmRiZjc3NzctNDUyMi00NTc0LTgwNzktNTU1ZmJlZDEyNWFiXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie15","ranking":"5.4"},
+
+        {"id":16,"title":"The Upside","intheatersurl":"https://m.media-amazon.com/images/M/MV5BNzY3NzYyNjI0N15BMl5BanBnXkFtZTgwNjYzMDc0NjM@._V1_QL75_UX280_CR0,0,280,414_.jpg","intheatersalt":"movie16","ranking":"7.0"}
+
+    ],
+    "tikets":[
+        {"id":1,"no":"1","score":"$58M","title":"Superman"},
+        {"id":2,"no":"2","score":"$11M","title":"Smurfs"},
+        {"id":3,"no":"3","score":"$24M","title":"Jurassic World:Rebirth"},
+        {"id":4,"no":"4","score":"$9.9M","title":"F1:The Movie"},
+        {"id":5,"no":"5","score":"$13M","title":"I Know What you Did Last Summer"},
+        {"id":6,"no":"6","score":"$5.4M","title":"How to Train your Dragon"}
+    ],
+    "commingsoon":[
+        {"id":1,"imageurl":"https://m.media-amazon.com/images/M/MV5BM2QwNGE4ODItMGZhMC00NjMzLWJjNGEtNGMzYWZjOTYyZjNhXkEyXkFqcGdeQWRpZWdtb25n._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image1","title":"The Fantastic Four: First Steps","view":"446","likes":"229","date":"JUL 25","time":"1:35"},
+        {"id":2,"imageurl":"https://m.media-amazon.com/images/M/MV5BYTY1ZDNhZjEtNjNkOS00YWZkLWE5NzktNTdhMWM5YTE3NTUwXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image2","title":"The Naked Gun","view":"434","likes":"133","date":"AUG 1","time":"2:31"},
+        {"id":3,"imageurl":"https://m.media-amazon.com/images/M/MV5BMzUwOTI5MDgtMmQ3Mi00NDUwLWJhNTktZTZjMzMwNDEwYmIyXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image3","title":"Together","view":"6","likes":"3","date":"JUL 30","time":"0:57"},
+        {"id":4,"imageurl":"https://m.media-amazon.com/images/M/MV5BOWJlMzEwYmMtODRlMC00MDgwLWE5YWMtNmZiNGZhYTYyOTE2XkEyXkFqcGdeQWpnYW1i._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image4","title":"Weapons","view":"542","likes":"173","date":"AUG 8","time":"1:57"},
+        {"id":5,"imageurl":"https://m.media-amazon.com/images/M/MV5BMWRlY2JjNWEtOWI2OS00ZTEwLTk2ZjEtODk0ZmIzZWRhZTkyXkEyXkFqcGdeQWFybm8@._V1_QL75_UX760_CR0,8,760,428_.jpg","imagealt":"image5","title":"Freakier Friday","view":"163","likes":"101","date":"AUG 8","time":"2:12"},
+        {"id":6,"imageurl":"https://m.media-amazon.com/images/M/MV5BMGE5OTVjM2EtMmFkMC00ZTU5LWJhZTEtNjExNDgwYWU5MTFjXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image6","title":"Nobody 2","view":"447","likes":"3066","date":"AUG 15","time":"2:54"},
+        {"id":7,"imageurl":"https://m.media-amazon.com/images/M/MV5BYTM2M2Y0NTYtNmU0NC00OGQyLTk0MDUtZmEzNmMxMmMzODEzXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image7","title":"Red Sonja","view":"6","likes":"12","date":"AUG 15","time":"1:56"},
+        {"id":8,"imageurl":"https://m.media-amazon.com/images/M/MV5BN2JkZmNjYTAtZDNhYy00OWQzLWExMDEtMjg2MTA5ZjE0ODFhXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image8","title":"The Bad Guys 2","view":"2","likes":"22","date":"AUG 1","time":"2:25"},
+        {"id":9,"imageurl":"https://m.media-amazon.com/images/M/MV5BMGVkM2RiYjctMTYwOS00YzNiLTkxM2YtNjc0NzA3ZjQ5MWIwXkEyXkFqcGdeQWRpZWdtb25n._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image9","title":"The Home","view":"64","likes":"26","date":"JUL 25","time":"1:58"},
+        {"id":10,"imageurl":"https://m.media-amazon.com/images/M/MV5BNWUwMThmYmUtYzE3Ny00MGNiLWJkMTMtN2UyYWI0ODZiYjVhXkEyXkFqcGdeQWRpZWdtb25n._V1_QL75_UX760_CR0,0,760,428_.jpg","imagealt":"image10","title":"Oh, Hi!","view":"12","likes":"4","date":"JUL 25","time":"2:13"}
+    ],
+    "Editorspicks":[
+        {"id":1,"title":"Staff Picks: What to Watch in July","movieurl":"https://m.media-amazon.com/images/M/MV5BYzVmY2QyNTctNjk3Ni00MDMwLWE3ZDMtMGJkMjAyYTE4N2RmXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie1","seemore":"See our picks"},
+        {"id":2,"title":"Everything New on Netflix in July","movieurl":"https://m.media-amazon.com/images/M/MV5BMGY3MmMxZjItMzkwMy00N2E3LWE0OTAtMjk4OWZkNGY2OTcxXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie2","seemore":"See the list"},
+        {"id":3,"title":"Poll: ACME Moments","movieurl":"https://m.media-amazon.com/images/M/MV5BM2Q1Mzk0ZTctNTU4Yy00YzljLWEyZWEtMDRjZDBlYTY2M2Y0XkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie3","seemore":"vote now"},
+        {"id":4,"title":"Everything New on Disney+ in July","movieurl":"https://m.media-amazon.com/images/M/MV5BNGYxNGEwNWYtNjQ2Ny00N2ZmLWJkNjYtZjc3NGMzOTA0MmE2XkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie4","seemore":"See the list"},
+        {"id":5,"title":"Everything New on Hulu in July","movieurl":"https://m.media-amazon.com/images/M/MV5BMjY0MWM4ZmYtZTljNS00NTc1LWFlNTYtYWEzYzBkMjJmNjE1XkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie5","seemore":"See the list"},
+        {"id":6,"title":"Crunchyroll's Summer 2025 Anime Lineup","movieurl":"https://m.media-amazon.com/images/M/MV5BZGJmNDJlYmEtODc4NS00MDBlLTg4M2YtYWZhNGI5MDNmMGNhXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie6","seemore":"See the list"},
+        {"id":7,"title":"July 2025 TV and Streaming Premiere Dates","movieurl":"https://m.media-amazon.com/images/M/MV5BOTExZmQxY2QtM2JlZi00ODc3LTk3MmItNzViMzUzMGExM2M0XkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie7","seemore":"See the list"},
+        {"id":8,"title":"Everything New on Prime Video in July","movieurl":"https://m.media-amazon.com/images/M/MV5BODIyM2YyZTItMmYyOC00YzNhLWFmOTctOTA2MDcxODdmYTY0XkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie8","seemore":"See the list"},
+        {"id":9,"title":"Everything New on HBO Max in July","movieurl":"https://m.media-amazon.com/images/M/MV5BMjdhMzJmNTQtZTE1Ni00OTdlLTkzYmUtYmYzZjEwZDM1MTRkXkEyXkFqcGc@._V1_QL75_UX760_CR0,0,760,428_.jpg","moviealt":"movie9","seemore":"See the list"}
+    ],
+    "birthday":[
+        {"id":1,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BNDZjMjFlODYtZDljNi00MjA1LWJlMWItZDFjNTdjYTU1ZDY0XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" , "celebrityalt":"celebrity1","name":"Sara Sampaio","age":"36"},
+        {"id":2,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTY5MDgzNDA2MF5BMl5BanBnXkFtZTcwODE3ODg1Mg@@._V1_QL75_UX280_CR0,22,280,280_.jpg","celebrityalt":"celebrity2","name":"Josh Hartnett","age":"47"},
+        {"id":3,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BNTYzMjc2Mjg4MF5BMl5BanBnXkFtZTcwODc1OTQwNw@@._V1_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity3","name":"Robin Williams","age":"1951-2014"},
+        {"id":4,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTM3Mjc0NzgyN15BMl5BanBnXkFtZTcwOTU3MTE3Nw@@._V1_QL75_UX280_CR0,25,280,280_.jpg","celebrityalt":"celebrity4","name":"David Dastmal...","age":"50"},
+        {"id":5,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMDQ0YWFkYjUtMTkwNy00M2Q5LWFmYjItNWMwOTRiNzIwZmNjXkEyXkFqcGc@._V1_QL75_UY280_CR70,0,280,280_.jpg","celebrityalt":"celebrity5","name":"Juno Temple","age":"36"},
+        {"id":6,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BYTkwMDJjNDUtNmZmNS00ODVlLTkxNTQtZDQzOWUyMmE4NGEyXkEyXkFqcGc@._V1_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity6","name":"Betty Gilpin","age":"39"},
+        {"id":7,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTQyMzk3MzI4MF5BMl5BanBnXkFtZTgwNTc2ODI2MTE@._V1_QL75_UY280_CR71,0,280,280_.jpg","celebrityalt":"celebrity7","name":"Rory Culkin","age":"36"},
+        {"id":8,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTcyMjQzMTg5OF5BMl5BanBnXkFtZTgwMzgwMjMxMDE@._V1_QL75_UX280_CR0,24,280,280_.jpg","celebrityalt":"celebrity8","name":"Jaime Murray","age":"49"},
+        {"id":9,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BNDQyMzQ5NTEzNl5BMl5BanBnXkFtZTcwNjI3NTEzNQ@@._V1_QL75_UX280_CR0,25,280,280_.jpg","celebrityalt":"celebrity9","name":"Charlotte Gainsbo...","age":"54"},
+        {"id":10,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTczNDUxODY3MF5BMl5BanBnXkFtZTYwOTI0ODA1._V1_QL75_UX280_CR0,0,280,280_.jpg","celebrityalt":"celebrity10","name":"Edward Herrmann","age":"1943-2014"},
+        {"id":11,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMjQ2NjU3MzcyM15BMl5BanBnXkFtZTgwNzY1MzU2NDM@._V1_QL75_UX280_CR0,0,280,280_.jpg","celebrityalt":"celebrity11","name":"Jessica Barden","age":"33"},
+        {"id":12,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTUxNzU5MzQ0OF5BMl5BanBnXkFtZTcwNTA5ODk4Mw@@._V1_QL75_UX280_CR0,18,280,280_.jpg","celebrityalt":"celebrity12","name":"Jon Lovits","age":"68"},
+        {"id":13,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BYTNiYWVhM2YtOWQ5My00ZGQyLWExYmItMDJhZTE4OTRlOGMzXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg","celebrityalt":"celebrity13","name":"Don Knotts","age":"1924-2006"},
+        {"id":14,"celebrityurl":"https://m.media-amazon.com/images/M/MV5BMTQwOTk4NTk0MV5BMl5BanBnXkFtZTcwODEyNjA1Mw@@._V1_QL75_UX280_CR0,2,280,280_.jpg","celebrityalt":"celebrity14","name":"Justin Bartha","age":"47"}
+    ],
+    "news":[
+        {"id":1,"imageurl":"https://m.media-amazon.com/images/M/MV5BZDNiYThjOWEtZTFjMy00OTAyLTk0MDYtNjlhZjFlOTk4YjQ4XkEyXkFqcGc@._V1_QL75_UY266_CR110,0,180,266_.jpg","imagealt":"image1","Description":"Adria Arjona to Star Opposite Michael B. Jordan in ‘The Thomas Crown Affair’ (Exclusive)","date":"Jul 21 Variety - Film News"},
+        {"id":2,"imageurl":"https://m.media-amazon.com/images/M/MV5BZmI5ZjM2MWYtMzVkOS00Y2Q1LWFiZWEtMDhmNmMzYmQyNGFjXkEyXkFqcGc@._V1_QL75_UY266_CR43,0,180,266_.jpg","imagealt":"image2","Description":"Anne Hathaway Shares First Look at ‘The Devil Wears Prada 2’","date":"Jul 21 The Hollywood Reporter - Movie News"},
+        {"id":3,"imageurl":"https://m.media-amazon.com/images/M/MV5BM2E3Yzc1MWItOWIwMi00MGRmLTg5NTMtODM3Mzk3ZjI4OWRhXkEyXkFqcGc@._V1_QL75_UY266_CR110,0,180,266_.jpg","imagealt":"image3","Description":"‘Sense and Sensibility’: George MacKay, Caitríona Balfe, Fiona Shaw and More Join Daisy Edgar-Jones in Jane Austen Adaptation","date":"Jul 21 Variety - Film News"},
+        {"id":4,"imageurl":"https://m.media-amazon.com/images/M/MV5BOTUzNTYwNjE0N15BMl5BanBnXkFtZTcwMjc0ODM1Mw@@._V1_QL75_UY266_CR16,0,180,266_.jpg","imagealt":"image4","Description":"Toronto Festival Adds Bobby Farrelly, Brian Cox, Aziz Ansari and Guillermo del Toro Films","date":"Jul 21 The Hollywood Reporter - Movie News"},
+        {"id":5,"imageurl":"https://m.media-amazon.com/images/M/MV5BMjUyYzNhNjYtM2NjMS00Njg4LWIzODUtNjViZjIxOTk0MzFkXkEyXkFqcGc@._V1_QL75_UY266_CR145,0,180,266_.jpg","imagealt":"image5","Description":"‘John Carter of Mars’ Animated Series to Be Unveiled at Comic-Con | Exclusive","date":"Jul 21 Wrap"}
+    ]
+}

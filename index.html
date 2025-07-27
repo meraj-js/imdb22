@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" href="./assets/favicone/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <title>IMDB</title>
+</head>
+
+<body>
+    <header>
+        <!-- start header D -->
+        <section class="header desktop">
+            <div class="navbar">
+
+                <a href="#" class="logo">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATwAAACfCAMAAABTJJXAAAAAwFBMVEX2xwAAAAD3zSz/0AD8zAD///+NcgDeswCWeQALCADlugBmUgB6YwD/zgDsvwD6ygBzXQDBnADWrQBTQwD1wwCdfwCjhABJOwCxjwA+MgDyxABFOABANABhTwDOpwBtWACpiQD401WSdgDGoAARDgC4lQAgGgAuJQD76bD//fb523r87sKGbAA3LAAZFAAcFwD30EL++uv412b64I7878f634v75qX989T/1wBPQAAoIQD+9+H+++741mL40Uj86ra/jrvxAAAIX0lEQVR4nO2d63raOBCG7UoOaYIRAUOoUwgJIaeSpEnTw7bd9v7vavEREBrJWHJkvPP96UFjI72PJY+k0djxcv29f+egVHq5vcuJOdlfvgSB7Xrth4Lg/m4T3quD6AorCG7X4X1BdDspuF/B+4rsdlTwksH7hux2VvA1gfcL2ZVQ8BrD+2y7HnuqCN4nfPBKKfi2hIcPXll5zjM+eCUVfHduEV5JBV+ce9t12F9dOH9sVwGFQqFQKBQKhUKhUCgUCoVCoRIxKhazXbF1UV+hcsawScqAySmwk8WBUKM3pBcC6qTldDo+lmocrm5GDxXG/ey2fl9scN5ttxeXg+FoPml1CPHBJ4leumKd++ILKhABquC6raTW9AC02DSM5J+qjI+Uv7uux/5i1PJ9ET96CFzTfUN47xVM1PBOVm1TI9kNXqL2jNKtijcE3mDVslAJogw8170aODy+hsBb1Za1lBjKwVtqxDFpCLwPJLsZmykZlIbnjp2Noa8h8Ny8R9Gp0rY8PPems06vKfAyILvYloDn/lyveFPgTbInwj9X2urAc/trXJoCb5T1W/JBaasFzx2u3rlNgXeQw1M3Xw+e28kr3hR4+YSoo269Jrx2TqYp8B5SX6WAm6cLz80n0k2B56YvDHaiNtWFN82GiMbAS0eiAm6eNrxxhqYx8FJfhS7Uprrw3MY9efOkRf6x2lQN7/TjlfQGrGHwLhN45KfaVA3PIcTvwc/wpGnw0vpStWUBeNEAysgcKs488sbAS9dVjtSWBeEty/tA8aBp8K7iBrGe2rIwPPDNfdA0eEmDGdjV1lQUHrg0mLFpDrxeZEsHBSwLw4Me43Hj4MW+Cm0XsCwMDxpA+4XhMUoJDTudTrj8c3sHqTbwYl/Fh8b4dRWFB759isKjfmvUPruO/+vprD3qEPOb4Wbgxesq5KmAZWF40ArNx0LwqDN94P6/fyLc/7UPL1lXKWCoD++mCDwyFzXrQ8/wcGgGnutIRqkNacO7VsNj4RgoG5AtADWAt2wxmxQx1IZ3pfTzSOsRvPmBUXqG4C1nnHRUxFAb3nsVvLa0B4xMvnYNwVvWCQxb2pA2PFcFrw8/d2u3rxO85aTJ7xYxrB6eQl2DHdcQvGPfIZvhZY/XQkPr8FZb9PbgcX1j6auQzTXMB3Gonn14h+ZGvbLw+NlEyLjWjv8RXmcf3qk5Z68sPH4ee8TvOy7q+uS55ga9svAG3EbDjHJrSMMz4XU1gBduU3hjeEMuLGVKODfvxCK899JZtrk3Rml4nGOyIJxd66O05hXCu5r4JJyJfz6umbH1gdLdlqv7+AcXXhaKI6beAN48eiMwn19VyVUDeNya+80PrrJAuNkbwEvGNDh8oWcfHr9MzjbfIFswU1UP7zoxgLejJvbh8Y3j6npsDV4WXw6uD8yswzvkWz/c/Ofih61umznBDLpBDeDxTxY3oRhZG/Oy7TXwF2oAj8iDt2fW4B2r4J3UAJ58+e7IGrzzfYAnXzgOrcHL9m3BltUAni+NTHkiCE8GT7pV0PcRngQelQbGtinCg+ENIDqKYoTnRnSkB83mDOHJ4ElXI3sITw5P5qt0oEN8CM+N4EmjaCnCk8KTHdOLdiJtrSTvBzyJr7KcIiE8OTw4A80BRXhyeJLglBHCU8CTRL9PGMKTw5OcuzhCeCp4sK8S3RjhyeDBmaOuCcJTwQMBRNsICE8OzxdHkUULUghPCQ86LzVEeEp4oK8SVQ/hyeGBqUCiS4mtELN9gQcloYnarwsP3CJpCDzwtBlBeGp4AIFTA/Dg1EpNgQecsI2rrwsPOsmmPntW/4iBgeRsd3zSQRceNHEucOpxT+ANhWUjA/DAwM4HFbw9iFWJ4QG+Shx6qQsPyulzqoKXRUmBKXLsh5jFCSiBUT0GpAkP3FJX5hjIDMBlC/thtUn2TnH0pa8PD37ZKlODnCVhtfDBc/sB3Qk8X3S29YbowWOM+cBBBLdAUpp0UITx2z9KkMITHeZPBh1ge6gAvLB1IknEd6k8SpCUw9nC6wJPOKwvqBY8hZSJuNKKwwEN5s56a8IT+SrTSuHNVfnz3Mto2GBgGrRVNnbL8IR9I3EFqoLXU8Jzp4w6M2ih1n20f2Q0hScalZMLgY+yaMPLDnyWPjKap2y1DU/oiSY3rgheltCnPLxFXbqt4wvShJIq4bWV2WpVMphZRRfetq+SevgVwcvnVuWzW5hLx6Xbbbd9lW6V8K5XHy4pCe+hBnlVMnjbix+pI1YNvJE2PJP5kDThCXyVeYXwzlZvSvi8rfQON+betfrwtqffqSNWCby18QqEN5cmWTc3N9OHJ/BV0tlPFfB6a10OhNcikqRWc6O5Q3XhbedBSAdkIBZDA97D0XrLIXhP1PHBZ4//eJpteLyv8qEqeIPNT2ZC8JKsl+KySU3SXubdli/OVsHNwrsehFyHg+DFb1PaEayVnfO3sA+P91Wy9ON+2cXQLf08HrTIVrvp9LQv0Fn6A6THne4675nNFypvRAqPzbvtbXWzLSjW2izuZlMAeim4rN3NP5t7LipeaXE4HE7ns14rjD5yK3pFAt8hzoqZT2eHxzdxU07b89B4nt/oN3qQsuUL8eef86rwxXmB+KPRjryYu5fq88qKtlGfEMog+gbEIFXzcygUCoVCoVAoFAqFQqFQqCbLXAL5/6EubFdgf/XO+RrYrsPe6sX5hPBKKvjm3CG8kgqeHe8F6ZXTZ8/xfiG8Ugpel/C8e6RXRn+8CJ5nuxp7qeB3Ag877u5adtoEnveK9HZUcOtl8LzvDuLbRcEnbwXPu/sX6RVW8OfZW4e3fPguggABqhUEn18zZjk8z/v99/7iHUqqi/vb5xWx/wBx5+QAVR6x0gAAAABJRU5ErkJggg==" alt="">
+                </a>
+
+                <button id="showbtn">
+                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M4 6H20M4 12H20M4 18H20" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                    Menu
+                </button>
+                <div class="menu">
+                    <div class="menu-icon">
+                        <a href="#" class="logo">
+                            <svg width="127px" height="127px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ffffff" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="rgb(245,197,24)" d="M4 7c-1.103 0-2 .897-2 2v6.4c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V9c0-1.103-.897-2-2-2H4Zm1.4 2.363h1.275v5.312H5.4V9.362Zm1.962 0H9l.438 2.512.287-2.512h1.75v5.312H10.4v-3l-.563 3h-.8l-.512-3v3H7.362V9.362Zm8.313 0H17v1.2c.16-.16.516-.363.875-.363.36.04.84.283.8.763v3.075c0 .24-.075.404-.275.524-.16.04-.28.075-.6.075-.32 0-.795-.196-.875-.237-.08-.04-.163.275-.163.275h-1.087V9.362Zm-3.513.037H13.6c.88 0 1.084.078 1.325.237.24.16.35.397.35.838v3.2c0 .32-.15.563-.35.762-.2.2-.484.288-1.325.288h-1.438V9.4Zm1.275.8v3.563c.2 0 .488.04.488-.2v-3.126c0-.28-.247-.237-.488-.237Zm3.763.675c-.12 0-.2.08-.2.2v2.688c0 .159.08.237.2.237.12 0 .2-.117.2-.238l-.037-2.687c0-.12-.043-.2-.163-.2Z"></path></g></svg>
+                        </a>
+                        <div class="closeBtn">
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 5L4.99998 19M5.00001 5L19 19" stroke="#000000" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </div>
+                    </div>
+
+                    <div class="menu-section">
+                        <div class="menu-items">
+                            <h2><svg width="25px" height="25px" viewBox="0 0 16.00 16.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.00016"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H3V3H5V1H11V3H13V1H15V15H13V13H11V15H5V13H3V15H1V1ZM3 9H5V11H3V9ZM13 9H11V11H13V9ZM3 5H5V7H3V5ZM13 5H11V7H13V5Z" fill="rgb(245,197,24)"></path> </g></svg>Movies</h2>
+                            <ul>
+                                <li><a href="#">Release calendar</a></li>
+                                <li><a href="#">Top 250 movies</a></li>
+                                <li><a href="#">Most popular movies</a></li>
+                                <li><a href="#">Browse movies by genre</a></li>
+                                <li><a href="#">Top box office</a></li>
+                                <li><a href="#">Showtimes & tickets</a></li>
+                                <li><a href="#">Movie news</a></li>
+                                <li><a href="#">India movie spotlight</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-items">
+                            <h2><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10 20H14M5 18H19C20.1046 18 21 17.1046 21 16V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V16C3 17.1046 3.89543 18 5 18Z" stroke="rgb(245,197,24)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>TV shows</h2>
+                            <ul>
+                                <li><a href="#">What's on TV & streaming</a></li>
+                                <li><a href="#">Top 250 TV shows</a></li>
+                                <li><a href="#">Most popular TV shows</a></li>
+                                <li><a href="#">Browse TV shows by genre</a></li>
+                                <li><a href="#">TV news</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-items">
+                            <h2><svg fill="rgb(245,197,24)" width="30px" height="30px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 18.6483 41.0547 C 18.0858 40.6328 17.9921 39.9531 18.3202 38.9922 L 21.1796 30.4375 L 13.8671 25.2109 C 13.0234 24.6250 12.7187 23.9688 12.9062 23.3125 C 13.1171 22.6797 13.7733 22.3516 14.7812 22.3516 L 23.7812 22.4219 L 26.5234 13.8203 C 26.8046 12.8594 27.2968 12.3437 27.9999 12.3437 C 28.7030 12.3437 29.1718 12.8594 29.4765 13.8203 L 32.2187 22.4219 L 41.1952 22.3516 C 42.2265 22.3516 42.8358 22.6797 43.0702 23.3125 C 43.3046 23.9688 42.9530 24.6250 42.1327 25.2109 L 34.7968 30.4375 L 37.6562 38.9922 C 37.9843 39.9531 37.8905 40.6328 37.3514 41.0547 C 36.7655 41.5000 36.0858 41.3359 35.2655 40.7266 L 27.9999 35.4063 L 20.7343 40.7266 C 19.8905 41.3359 19.2109 41.5000 18.6483 41.0547 Z"></path></g></svg>Awards & events</h2>
+                            <ul>
+                                <li><a href="#">Emmys</a></li>
+                                <li><a href="#">Superheroes Guide</a></li>
+                                <li><a href="#">San Diego Comic-Con</a></li>
+                                <li><a href="#">Summer Watch Guide</a></li>
+                                <li><a href="#">Best Of 2025 So Far</a></li>
+                                <li><a href="#">Disability Pride Month</a></li>
+                                <li><a href="#">STARmeter Awards</a></li>
+                                <li><a href="#">Awards Central</a></li>
+                                <li><a href="#">Festival Central</a></li>
+                                <li><a href="#">All events</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-items"></div>
+
+                        <div class="menu-items">
+                            <h2><svg fill="rgb(245,197,24)" height="25px" width="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" transform="matrix(-1, 0, 0, -1, 0, 0)rotate(180)" stroke="rgb(245,197,24)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M0,146.286V512h365.714V146.286H0z M146.286,432.581V225.704l103.439,103.439L146.286,432.581z"></path> </g> </g> <g> <g> <polygon points="146.286,0 146.286,109.714 402.286,109.714 402.286,365.714 512,365.714 512,0 "></polygon> </g> </g> </g></svg>Watch</h2>
+                            <ul>
+                                <li><a href="#">What to watch</a></li>
+                                <li><a href="#">Latest trailers</a></li>
+                                <li><a href="#">IMDb Originals</a></li>
+                                <li><a href="#">IMDb Picks</a></li>
+                                <li><a href="#">IMDb Spotlight</a></li>
+                                <li><a href="#">Family entertainment guide</a></li>
+                                <li><a href="#">IMDb Podcasts</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="menu-items"></div>
+                        <div class="menu-items">
+                            <h2><svg width="30px" height="30px" viewBox="-1.44 -1.44 18.88 18.88" xmlns="http://www.w3.org/2000/svg" fill="rgb(245,197,24)" class="bi bi-people-fill" transform="matrix(-1, 0, 0, 1, 0, 0)" stroke="rgb(245,197,24)" stroke-width="0.00016"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path> <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"></path> <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path> </g></svg>Celebs</h2>
+                            <ul>
+                                <li><a href="#">Born today</a></li>
+                                <li><a href="#">Most popular celebs</a></li>
+                                <li><a href="#">Celebrity news</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-items"></div>
+                        <div class="menu-items">
+                            <h2><svg width="30px" height="30px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--gis" preserveAspectRatio="xMidYMid meet" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M50 0C22.404 0 0 22.404 0 50s22.404 50 50 50c27.546 0 49.911-22.324 49.992-49.852A1.5 1.5 0 0 0 100 50a1.5 1.5 0 0 0-.006-.133C99.922 22.332 77.552 0 50 0zm-2.713 3.082c-1.825.43-3.62 1.015-5.185 2.096c-1.519.685-2.266-.14-2.229-1.073a47.033 47.033 0 0 1 7.414-1.023zm13.84 2.098c1.602-.027 2.246 2.948 4.94 3.148c2.718 2.264 2.085-3.12-.622-1.974a10.354 10.354 0 0 0-.949-1.069A47.031 47.031 0 0 1 87.352 21.47c-1.652-.597-3.375.049-4.977-2.602c-2.626-3.57-.655 4.303-3.145.31c-2.267-1.201 2.377-1.226-.986-2.327c-2.125-1.538-3.685-2.013-1.484.68c-2.04.897-1.597-3.048-2.963-3.33a.827.827 0 0 0-.256-.01c-.275.029-.61.182-1.031.503c-1.936.595-.952 5.219-4.078 4.987c3.116.728 8.322-3.053 10.48.4c.755 1.734 5.593 4.47 5.98 3.742c-.913-2.502 3.199.311 4.444.451A46.786 46.786 0 0 1 97 50c0 13.168-5.41 25.057-14.123 33.586c-.29.04-.583.048-.879-.006c2.872-4.744 1.46-10.533 3.74-15.432c2.448-3.518 1.544-8.42-.709-11.703c.632-3.01 1.106-6.149-2.652-5.982c-2.083-4.491-5.847 2.233-9.402.385c-4.076 1.594-7.57-2.616-9.524-5.522c-3.346-1.16-3.853-5.655-2.37-8.482c-.122-1.52-1.786-3.624-.093-4.063c-2.889-.05 1.154-4.05 1.323-5.73l1.1-1.016c2.572-1.168 1.777-4.598 3.679-6.365c-2.753-.683-3.176-3.306-4.057-5.772c1.843-.886 7.297.677 3.055-2.117c-1.268-.376-2.735-1.282-.871-1.86c-3.008 1.206-2.305-3.91-3.606-.97c-3.653.268-.355-2.352-1.783-3.203c.509-.397.93-.562 1.299-.568zm-27.584.783c.132.659-.381 2.083.223 2.598c-1.461 1.442.313 4.745-3.776 3.375c-1.728-.649 3.513-2.995-.63-1.475c-2.208.683-2.356 1.633-.749 2.098c-3.618 2.297-5.831 1.534-8.943 4.396c-3.189 3.49-8.03 6.044-9.201 10.947c1.914-.553.15 3.565 1.588 4.3c.28.662-1.964 1.926.752 2.325c-.121 1.73 4.335.628 2.107 2.084c-1.636-.537-6.6 1.043-4.52-1.771c-2.495.62-1.516-2.651-3.675-2.194c.571-4.001 5.567 2.105 4.277-.386c-1.053-.025.456-3.885-1.348-1.305c1.9-4.281-.322-.472-.75-1.262c.518-1.576.819-2.878.53-3.422c5.426-9.265 13.926-16.503 24.115-20.308zm25.488 19.555c.82.375 1.604.215 2.303.056l.018 1.217c-1.903.18-4.687-.994-2.32-1.273zM6.17 33.02c.08.357-.112 1.074-.762 2.12a46.67 46.67 0 0 1 .762-2.12zm10.568 2.974c.678.185 1.29 5.928-.754 6.744c1.574-1.95-.363-6.066.618-6.703c.045-.04.091-.053.136-.04zm-11.67.172c-.351 1.983.831 4.02-.285 6.772c1.041 3.785 3.77-2.05 5.621-1.28c.287-.82 2.308-.293 1.612 1.549c2.15.594 1.658-.644 2.449-.45c2.178 1.133 3.068-1.228 2.377 2.35c1.26 3.998 7.425 2.644 7.877 7.133c.701 3.851 4.362 3.54 6.576 5.578c3.566 1.025 8.527 2.05 10.213 5.596c.748 4.331-5.26 6.073-3.86 10.643c.55 4.98-3.65 5.116-6.875 6.62c.714 2.722-2.535 6.515-3.556 6.573c.278.985-1.442 1.96-1.32 3.107a47.108 47.108 0 0 1-8.024-6.054c-2.154-3.514-3.532-7.543-4.963-11.373c-2.397-3.267-5.396-6.252-6.445-10.344c-1.737-3.62-2.497-8.197-.772-11.918c.446-1.561.641-6.377-.752-4.145c-.872-.626-1.143-2.457-1.312-4.177a46.54 46.54 0 0 1 1.44-6.18z" fill="rgb(245,197,24)"></path></g></svg>Community</h2>
+                            <ul>
+                                <li><a href="#">Help center</a></li>
+                                <li><a href="#">Contributor zone</a></li>
+                                <li><a href="#">Polls</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    
+                    
+                    
+                </div>
+
+
+                <div class="search">
+                    <button id="options">All <svg fill="#000000" width="12px" height="12px" viewBox="0 0 22 22"
+                            xmlns="http://www.w3.org/2000/svg" id="memory-menu-down-fill" stroke="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M17 9V8H5V9H6V10H7V11H8V12H9V13H10V14H12V13H13V12H14V11H15V10H16V9"></path>
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="optionmenu">
+                        <ul>
+                            <li><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="rgb(241,194,24)" stroke-width="1.752" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>All</a></li>
+
+                            <li><a href="#"><svg width="20px" height="20px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H3V3H5V1H11V3H13V1H15V15H13V13H11V15H5V13H3V15H1V1ZM3 9H5V11H3V9ZM13 9H11V11H13V9ZM3 5H5V7H3V5ZM13 5H11V7H13V5Z" fill="rgb(143,143,143)"></path> </g></svg>Titles</a></li>
+
+                            <li><a href="#"><svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10 20H14M5 18H19C20.1046 18 21 17.1046 21 16V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V16C3 17.1046 3.89543 18 5 18Z" stroke="rgb(143,143,143)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>TV episodes</a></li>
+
+                            <li><a href="#"><svg fill="rgb(143,143,143)" width="30px" height="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" stroke="rgb(143,143,143)" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>ionicons-v5-j</title><path d="M336,256c-20.56,0-40.44-9.18-56-25.84-15.13-16.25-24.37-37.92-26-61-1.74-24.62,5.77-47.26,21.14-63.76S312,80,336,80c23.83,0,45.38,9.06,60.7,25.52,15.47,16.62,23,39.22,21.26,63.63h0c-1.67,23.11-10.9,44.77-26,61C376.44,246.82,356.57,256,336,256Zm66-88h0Z"></path><path d="M467.83,432H204.18a27.71,27.71,0,0,1-22-10.67,30.22,30.22,0,0,1-5.26-25.79c8.42-33.81,29.28-61.85,60.32-81.08C264.79,297.4,299.86,288,336,288c36.85,0,71,9,98.71,26.05,31.11,19.13,52,47.33,60.38,81.55a30.27,30.27,0,0,1-5.32,25.78A27.68,27.68,0,0,1,467.83,432Z"></path><path d="M147,260c-35.19,0-66.13-32.72-69-72.93C76.58,166.47,83,147.42,96,133.45,108.86,119.62,127,112,147,112s38,7.66,50.93,21.57c13.1,14.08,19.5,33.09,18,53.52C213.06,227.29,182.13,260,147,260Z"></path><path d="M212.66,291.45c-17.59-8.6-40.42-12.9-65.65-12.9-29.46,0-58.07,7.68-80.57,21.62C40.93,316,23.77,339.05,16.84,366.88a27.39,27.39,0,0,0,4.79,23.36A25.32,25.32,0,0,0,41.72,400h111a8,8,0,0,0,7.87-6.57c.11-.63.25-1.26.41-1.88,8.48-34.06,28.35-62.84,57.71-83.82a8,8,0,0,0-.63-13.39C216.51,293.42,214.71,292.45,212.66,291.45Z"></path></g></svg>Celebs</a></li>
+                            <li><a href="#"><svg fill="rgb(143,143,143)" width="30px" height="30px" viewBox="0 -4.91 122.88 122.88" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="enable-background:new 0 0 122.88 113.05" xml:space="preserve" stroke="rgb(143,143,143)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style> <g> <path class="st0" d="M0,100.07h14.72V1.57c0-0.86,0.71-1.57,1.57-1.57h49.86c0.86,0,1.57,0.71,1.57,1.57V38.5h44.12 c0.86,0,1.57,0.71,1.57,1.57v59.99h9.47v12.99H0V100.07L0,100.07z M27.32,14.82h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36 c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V15.39C26.75,15.08,27.01,14.82,27.32,14.82L27.32,14.82z M44.6,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V76.87 C44.03,76.55,44.29,76.3,44.6,76.3L44.6,76.3z M27.32,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C26.75,76.55,27.01,76.3,27.32,76.3L27.32,76.3z M44.6,55.8h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V56.38 C44.03,56.06,44.29,55.8,44.6,55.8L44.6,55.8z M27.32,55.8h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V56.38C26.75,56.06,27.01,55.8,27.32,55.8L27.32,55.8z M44.6,35.31h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V35.88 C44.03,35.57,44.29,35.31,44.6,35.31L44.6,35.31z M27.32,35.31h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V35.88C26.75,35.57,27.01,35.31,27.32,35.31L27.32,35.31z M44.6,14.82h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V15.39 C44.03,15.08,44.29,14.82,44.6,14.82L44.6,14.82z M23.17,7.32h35.92c0.62,0,1.13,0.61,1.13,1.35v85.87c0,0.74-0.51,1.35-1.13,1.35 H23.17c-0.62,0-1.13-0.61-1.13-1.35V8.67C22.04,7.93,22.55,7.32,23.17,7.32L23.17,7.32z M72.61,53.43h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54 C72.04,53.69,72.3,53.43,72.61,53.43L72.61,53.43z M89.89,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C89.32,76.55,89.58,76.3,89.89,76.3L89.89,76.3z M72.61,76.3h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87 C72.04,76.55,72.3,76.3,72.61,76.3L72.61,76.3z M89.89,53.43h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54C89.32,53.69,89.58,53.43,89.89,53.43L89.89,53.43z M68.86,45.82h35.92 c0.62,0,1.13,0.61,1.13,1.35v47.37c0,0.74-0.51,1.35-1.13,1.35H68.86c-0.62,0-1.13-0.61-1.13-1.35V47.17 C67.73,46.43,68.24,45.82,68.86,45.82L68.86,45.82z"></path> </g> </g></svg>Companies</a></li>
+                            <li><a href="#"><svg fill="rgb(143,143,143)" width="30px" height="30px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="rgb(143,143,143)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M246.65625,132.43713l-45.625,68.43848.001-.001a15.96649,15.96649,0,0,1-13.31348,7.125H40a16.01833,16.01833,0,0,1-16-16v-128a16.01833,16.01833,0,0,1,16-16H187.71875a15.9687,15.9687,0,0,1,13.31348,7.126l45.624,68.43652A7.99771,7.99771,0,0,1,246.65625,132.43713Z"></path> </g></svg>Keywords</a></li>
+
+                            <li><a href="#"><svg fill="rgb(143,143,143)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 92.268 92.268" xml:space="preserve" stroke="rgb(143,143,143)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <polygon points="57.967,0 54.892,8.795 73.357,21.546 "></polygon> <path d="M83.775,76.48l-10.58-10.582V27.366l-23.912-16.51L53.078,0H5.887v92.268h67.309V90.6 c1.297,0.711,2.758,1.095,4.278,1.095c2.38,0,4.618-0.927,6.302-2.61C87.25,85.609,87.25,79.955,83.775,76.48z M80.328,85.176 c-1.321,1.321-3.465,1.321-4.786,0L53.598,63.232c-0.089-0.09-0.156-0.191-0.234-0.288c-7.597,5.342-18.176,4.639-24.963-2.149 c-7.596-7.595-7.596-19.954,0-27.549c7.597-7.595,19.956-7.595,27.549,0c6.785,6.787,7.49,17.367,2.149,24.963 c0.095,0.078,0.197,0.146,0.289,0.236l21.94,21.941C81.65,81.71,81.65,83.854,80.328,85.176z"></path> <circle cx="42.04" cy="46.866" r="13.586"></circle> </g> </g> </g></svg>Advanced search
+                            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke="rgb(143,143,143)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a></li>
+                        </ul>
+                    </div>
+
+                    <input type="search" >
+                    <svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                                    stroke="#787878" stroke-width="2.352" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                    </svg>
+                </div>
+
+                <img src="https://m.media-amazon.com/images/G/01/IMDbPro/images/IMDbPro_payments_2x.png" alt="">
+                <div class="watchlist">
+                    <svg width="25px" height="25px" viewBox="-2.4 -2.4 20.80 20.80" xmlns="http://www.w3.org/2000/svg"
+                        fill="#ffffff" class="bi bi-bookmark-plus" stroke="#ffffff" stroke-width="1.1039999999999999">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                            stroke-width="0.128"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z">
+                            </path>
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span>Watchlist</span>
+                </div>
+                <div class="signin">
+                    <a href="#" class="signinli">
+                        <span>Sign In</span>
+                    </a>
+                </div>
+                <div class="language">
+                    <button id="language-M-Btn">
+                        <span>EN</span>
+                        <svg fill="#ffffff" width="12px" height="12px" viewBox="0 0 22 22"
+                            xmlns="http://www.w3.org/2000/svg" id="memory-menu-down-fill" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                            <path d="M17 9V8H5V9H6V10H7V11H8V12H9V13H10V14H12V13H13V12H14V11H15V10H16V9"></path>
+                        </g>
+                        </svg>
+                    </button>
+                    <div class="language-menu">
+                        <p>FULLY SUPPORTED</p>
+                        <p><svg fill="rgb(245,197,24)" width="20px" height="20px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" stroke="rgb(245,197,24)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g transform="matrix(1,0,0,1,-512,-320)"> <rect id="Icons" x="0" y="0" width="1280" height="800" style="fill:none;"></rect> <g id="Icons1" serif:id="Icons"> <g id="Strike"> </g> <g id="H1"> </g> <g id="H2"> </g> <g id="H3"> </g> <g id="list-ul"> </g> <g id="hamburger-1"> </g> <g id="hamburger-2"> </g> <g id="list-ol"> </g> <g id="list-task"> </g> <g id="trash"> </g> <g id="vertical-menu"> </g> <g id="horizontal-menu"> </g> <g id="sidebar-2"> </g> <g id="Pen"> </g> <g id="Pen1" serif:id="Pen"> </g> <g id="clock"> </g> <g id="external-link"> </g> <g id="hr"> </g> <g id="info"> </g> <g id="warning"> </g> <g id="plus-circle"> </g> <g id="minus-circle"> </g> <g id="vue"> </g> <g id="cog"> </g> <g id="logo"> </g> <g id="radio-check"> </g> <g id="eye-slash"> </g> <g id="eye"> </g> <g id="toggle-off"> </g> <g id="shredder"> </g> <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"> </g> <g id="react"> </g> <g id="check-selected"> <g transform="matrix(0.10009,1.645e-33,1.645e-33,0.10009,511.942,319.993)"> <path d="M321.714,559.995C383.452,559.4 444.576,533.825 488.528,490.39C540.728,438.804 567.614,362.474 558.237,289.61C542.165,164.734 439.517,80 320.172,80C229.504,80 141.375,136.719 102.723,218.967C73.131,281.935 73.079,357.952 102.723,421.033C141.101,502.698 227.781,559.119 318.63,559.995C319.658,559.998 320.686,559.998 321.714,559.995ZM318.887,519.994C226.669,519.105 140.633,447.794 123.527,356.366C111.467,291.905 134.234,222.15 181.658,176.375C237.036,122.923 324.063,105.014 396.424,135.314C461.174,162.428 509.632,225.368 518.562,294.718C526.216,354.158 504.885,416.454 462.966,459.367C426.2,497.004 374.636,519.481 321.457,519.994C320.6,519.997 319.744,519.997 318.887,519.994Z" style="fill-rule:nonzero;"></path> </g> <g transform="matrix(1.20036,0,0,1.20036,-108.995,-70.5272)"> <circle cx="543.992" cy="352" r="14.13"></circle> </g> </g> <g id="turn-off"> </g> <g id="code-block"> </g> <g id="user"> </g> <g id="coffee-bean"> </g> <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,785.021,-208.975)"> <g id="coffee-beans"> <g id="coffee-bean1" serif:id="coffee-bean"> </g> </g> </g> <g id="coffee-bean-filled"> </g> <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,913.062,-208.975)"> <g id="coffee-beans-filled"> <g id="coffee-bean2" serif:id="coffee-bean"> </g> </g> </g> <g id="clipboard"> </g> <g transform="matrix(1,0,0,1,128.011,1.35415)"> <g id="clipboard-paste"> </g> </g> <g id="clipboard-copy"> </g> <g id="Layer1"> </g> </g> </g> </g></svg>
+                        English (United States)</p>
+                        <p>PARTIALLY SUPPORTED</p>
+                        <ul>
+                            <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Français (Canada)</li>
+
+                            <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Français (France)</li>
+
+                            <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Deutsch (Deutschland)</li>
+
+                            <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>हिंदी (भारत)</li>
+
+                            <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Italiano (Italia)</li>
+
+                            <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Português (Brasil)</li>
+
+                            <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Español (España)</li>
+
+                            <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Español (México)</li>
+
+                        </ul>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+        <!-- end header D -->
+
+        <!-- start header T -->
+        <section class="header tablet">
+            <div class="navbar">
+                <button id="dropdown-mbtn">
+                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M4 6H20M4 12H20M4 18H20" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                </button>
+
+                <div class="dropdown-m">
+                    <div class="close-M-Btn">
+                            <svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.576"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9498 8.46447C17.3404 8.07394 17.3404 7.44078 16.9498 7.05025C16.5593 6.65973 15.9261 6.65973 15.5356 7.05025L12.0001 10.5858L8.46455 7.05025C8.07402 6.65973 7.44086 6.65973 7.05033 7.05025C6.65981 7.44078 6.65981 8.07394 7.05033 8.46447L10.5859 12L7.05033 15.5355C6.65981 15.9261 6.65981 16.5592 7.05033 16.9497C7.44086 17.3403 8.07402 17.3403 8.46455 16.9497L12.0001 13.4142L15.5356 16.9497C15.9261 17.3403 16.5593 17.3403 16.9498 16.9497C17.3404 16.5592 17.3404 15.9261 16.9498 15.5355L13.4143 12L16.9498 8.46447Z" fill="#ffffff"></path> </g></svg>
+                    </div>
+
+                    <div class="D-menu">
+                        <div class="D-menu-items">
+                            <button class="dropdown-menu-i"><svg width="20px" height="20px" viewBox="0 0 16.00 16.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.00016"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H3V3H5V1H11V3H13V1H15V15H13V13H11V15H5V13H3V15H1V1ZM3 9H5V11H3V9ZM13 9H11V11H13V9ZM3 5H5V7H3V5ZM13 5H11V7H13V5Z" fill="rgb(87, 87, 87)"></path> </g></svg>Movies<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z" fill="rgb(213, 213, 213)"></path> </g></svg></button>
+                            <ul class="dropdown-m-list">
+                                <li>Release calendar</li>
+                                <li>Top 250 movies</li>
+                                <li>Most popular movies</li>
+                                <li>Browse movies by genre</li>
+                                <li>Top box office</li>
+                                <li>Showtimes & tickets</li>
+                                <li>Movie news</li>
+                                <li>India movie spotlight</li>
+                            </ul>
+                        </div>
+                        <div class="D-menu-items">
+                            <button class="dropdown-menu-i"><svg width="25px" height="25px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10 20H14M5 18H19C20.1046 18 21 17.1046 21 16V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V16C3 17.1046 3.89543 18 5 18Z" stroke="rgb(87, 87, 87)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>TV shows<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z" fill="rgb(213, 213, 213)"></path> </g></svg></button>
+                            <ul class="dropdown-m-list">
+                                <li>What's on TV & streaming</li>
+                                <li>Top 250 TV shows</li>
+                                <li>Most popular TV shows</li>
+                                <li>Browse TV shows by genre</li>
+                                <li>TV news</li>
+                            </ul>
+                        </div>
+
+                        <div class="D-menu-items">
+                            <button class="dropdown-menu-i"><svg fill="rgb(87, 87, 87)" height="25px" width="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" transform="matrix(-1, 0, 0, -1, 0, 0)rotate(180)" stroke="rgb(87, 87, 87)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M0,146.286V512h365.714V146.286H0z M146.286,432.581V225.704l103.439,103.439L146.286,432.581z"></path> </g> </g> <g> <g> <polygon points="146.286,0 146.286,109.714 402.286,109.714 402.286,365.714 512,365.714 512,0 "></polygon> </g> </g> </g></svg>Watch<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z" fill="rgb(213, 213, 213)"></path> </g></svg></button>
+                            <ul class="dropdown-m-list">
+                                <li>What to watch</li>
+                                <li>Latest trailers</li>
+                                <li>IMDb Originals</li>
+                                <li>IMDb Picks</li>
+                                <li>IMDb Spotlight</li>
+                                <li>Family entertainment guide</li>
+                                <li>IMDb Podcasts</li>
+                            </ul>
+                        </div>
+
+                        <div class="D-menu-items">
+                            <button class="dropdown-menu-i"><svg fill="rgb(87, 87, 87)" width="25px" height="25px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" stroke="rgb(87, 87, 87)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 18.6483 41.0547 C 18.0858 40.6328 17.9921 39.9531 18.3202 38.9922 L 21.1796 30.4375 L 13.8671 25.2109 C 13.0234 24.6250 12.7187 23.9688 12.9062 23.3125 C 13.1171 22.6797 13.7733 22.3516 14.7812 22.3516 L 23.7812 22.4219 L 26.5234 13.8203 C 26.8046 12.8594 27.2968 12.3437 27.9999 12.3437 C 28.7030 12.3437 29.1718 12.8594 29.4765 13.8203 L 32.2187 22.4219 L 41.1952 22.3516 C 42.2265 22.3516 42.8358 22.6797 43.0702 23.3125 C 43.3046 23.9688 42.9530 24.6250 42.1327 25.2109 L 34.7968 30.4375 L 37.6562 38.9922 C 37.9843 39.9531 37.8905 40.6328 37.3514 41.0547 C 36.7655 41.5000 36.0858 41.3359 35.2655 40.7266 L 27.9999 35.4063 L 20.7343 40.7266 C 19.8905 41.3359 19.2109 41.5000 18.6483 41.0547 Z"></path></g></svg>Awards & events<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z" fill="rgb(213, 213, 213)"></path> </g></svg></button>
+                            <ul class="dropdown-m-list">
+                                <li>Emmys</li>
+                                <li>Superheroes Guide</li>
+                                <li>San Diego Comic-Con</li>
+                                <li>Summer Watch Guide</li>
+                                <li>Best Of 2025 So Far</li>
+                                <li>Disability Pride Month</li>
+                                <li>STARmeter Awards</li>
+                                <li>Awards Central</li>
+                                <li>Festival Central</li>
+                                <li>All events</li>
+                            </ul>
+                        </div>
+                        <div class="D-menu-items">
+                            <button class="dropdown-menu-i"><svg width="25px" height="25px" viewBox="-1.44 -1.44 18.88 18.88" xmlns="http://www.w3.org/2000/svg" fill="rgb(87, 87, 87)" class="bi bi-people-fill" transform="matrix(-1, 0, 0, 1, 0, 0)" stroke="rgb(87, 87, 87)" stroke-width="0.00016"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path> <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"></path> <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path> </g></svg>Celebs<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z" fill="rgb(213, 213, 213)"></path> </g></svg></button>
+                            <ul class="dropdown-m-list">
+                                <li>Born today</li>
+                                <li>Most popular celebs</li>
+                                <li>Celebrity news</li>
+                            </ul>
+                        </div>
+
+                        <div class="D-menu-items">
+                            <button class="dropdown-menu-i"><svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--gis" preserveAspectRatio="xMidYMid meet" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M50 0C22.404 0 0 22.404 0 50s22.404 50 50 50c27.546 0 49.911-22.324 49.992-49.852A1.5 1.5 0 0 0 100 50a1.5 1.5 0 0 0-.006-.133C99.922 22.332 77.552 0 50 0zm-2.713 3.082c-1.825.43-3.62 1.015-5.185 2.096c-1.519.685-2.266-.14-2.229-1.073a47.033 47.033 0 0 1 7.414-1.023zm13.84 2.098c1.602-.027 2.246 2.948 4.94 3.148c2.718 2.264 2.085-3.12-.622-1.974a10.354 10.354 0 0 0-.949-1.069A47.031 47.031 0 0 1 87.352 21.47c-1.652-.597-3.375.049-4.977-2.602c-2.626-3.57-.655 4.303-3.145.31c-2.267-1.201 2.377-1.226-.986-2.327c-2.125-1.538-3.685-2.013-1.484.68c-2.04.897-1.597-3.048-2.963-3.33a.827.827 0 0 0-.256-.01c-.275.029-.61.182-1.031.503c-1.936.595-.952 5.219-4.078 4.987c3.116.728 8.322-3.053 10.48.4c.755 1.734 5.593 4.47 5.98 3.742c-.913-2.502 3.199.311 4.444.451A46.786 46.786 0 0 1 97 50c0 13.168-5.41 25.057-14.123 33.586c-.29.04-.583.048-.879-.006c2.872-4.744 1.46-10.533 3.74-15.432c2.448-3.518 1.544-8.42-.709-11.703c.632-3.01 1.106-6.149-2.652-5.982c-2.083-4.491-5.847 2.233-9.402.385c-4.076 1.594-7.57-2.616-9.524-5.522c-3.346-1.16-3.853-5.655-2.37-8.482c-.122-1.52-1.786-3.624-.093-4.063c-2.889-.05 1.154-4.05 1.323-5.73l1.1-1.016c2.572-1.168 1.777-4.598 3.679-6.365c-2.753-.683-3.176-3.306-4.057-5.772c1.843-.886 7.297.677 3.055-2.117c-1.268-.376-2.735-1.282-.871-1.86c-3.008 1.206-2.305-3.91-3.606-.97c-3.653.268-.355-2.352-1.783-3.203c.509-.397.93-.562 1.299-.568zm-27.584.783c.132.659-.381 2.083.223 2.598c-1.461 1.442.313 4.745-3.776 3.375c-1.728-.649 3.513-2.995-.63-1.475c-2.208.683-2.356 1.633-.749 2.098c-3.618 2.297-5.831 1.534-8.943 4.396c-3.189 3.49-8.03 6.044-9.201 10.947c1.914-.553.15 3.565 1.588 4.3c.28.662-1.964 1.926.752 2.325c-.121 1.73 4.335.628 2.107 2.084c-1.636-.537-6.6 1.043-4.52-1.771c-2.495.62-1.516-2.651-3.675-2.194c.571-4.001 5.567 2.105 4.277-.386c-1.053-.025.456-3.885-1.348-1.305c1.9-4.281-.322-.472-.75-1.262c.518-1.576.819-2.878.53-3.422c5.426-9.265 13.926-16.503 24.115-20.308zm25.488 19.555c.82.375 1.604.215 2.303.056l.018 1.217c-1.903.18-4.687-.994-2.32-1.273zM6.17 33.02c.08.357-.112 1.074-.762 2.12a46.67 46.67 0 0 1 .762-2.12zm10.568 2.974c.678.185 1.29 5.928-.754 6.744c1.574-1.95-.363-6.066.618-6.703c.045-.04.091-.053.136-.04zm-11.67.172c-.351 1.983.831 4.02-.285 6.772c1.041 3.785 3.77-2.05 5.621-1.28c.287-.82 2.308-.293 1.612 1.549c2.15.594 1.658-.644 2.449-.45c2.178 1.133 3.068-1.228 2.377 2.35c1.26 3.998 7.425 2.644 7.877 7.133c.701 3.851 4.362 3.54 6.576 5.578c3.566 1.025 8.527 2.05 10.213 5.596c.748 4.331-5.26 6.073-3.86 10.643c.55 4.98-3.65 5.116-6.875 6.62c.714 2.722-2.535 6.515-3.556 6.573c.278.985-1.442 1.96-1.32 3.107a47.108 47.108 0 0 1-8.024-6.054c-2.154-3.514-3.532-7.543-4.963-11.373c-2.397-3.267-5.396-6.252-6.445-10.344c-1.737-3.62-2.497-8.197-.772-11.918c.446-1.561.641-6.377-.752-4.145c-.872-.626-1.143-2.457-1.312-4.177a46.54 46.54 0 0 1 1.44-6.18z" fill="rgb(87, 87, 87)"></path></g></svg>Community<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z" fill="rgb(213, 213, 213)"></path> </g></svg></button>
+                            <ul class="dropdown-m-list">
+                                <li>Help center</li>
+                                <li>Contributor zone</li>
+                                <li>Polls</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="imdbpro">
+                            <span>
+                                <div class="imdbpro-link">
+                                    <p>IMDbPro</p>
+                                    <a href="#">For industry Professionals</a>
+                                </div>
+                            </span>
+                            <svg fill="rgb(87, 87, 87)" width="15px" height="15px" viewBox="0 0 512 512" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" stroke="rgb(87, 87, 87)" stroke-width="15.36"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M421.24,269.93h30V429.84a48.72,48.72,0,0,1-48.66,48.66H82.77a48.72,48.72,0,0,1-48.66-48.66V110A48.72,48.72,0,0,1,82.77,61.37H242.68v30H82.77A18.68,18.68,0,0,0,64.11,110V429.84A18.68,18.68,0,0,0,82.77,448.5H402.58a18.68,18.68,0,0,0,18.66-18.66Zm-69-236.43v30h74.4L249.5,240.68l21.21,21.21L447.89,84.71v74.4h30V33.5Z"></path></g></svg>
+                    </div>
+                    
+                    
+                    <div class="language">
+                        <button class="language-btn">
+                            <h2>L A N G U A G E</h2>
+                            <P>English (United States)</P>
+                            <svg fill="rgb(122, 122, 122)" width="10px" height="10px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" stroke="rgb(122, 122, 122)" stroke-width="2.4"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.288"></g><g id="SVGRepo_iconCarrier"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></g></svg>
+                        </button>
+                        <div class="language-menuT">
+                            <div class="closeBtnT">
+                                <svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.576"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9498 8.46447C17.3404 8.07394 17.3404 7.44078 16.9498 7.05025C16.5593 6.65973 15.9261 6.65973 15.5356 7.05025L12.0001 10.5858L8.46455 7.05025C8.07402 6.65973 7.44086 6.65973 7.05033 7.05025C6.65981 7.44078 6.65981 8.07394 7.05033 8.46447L10.5859 12L7.05033 15.5355C6.65981 15.9261 6.65981 16.5592 7.05033 16.9497C7.44086 17.3403 8.07402 17.3403 8.46455 16.9497L12.0001 13.4142L15.5356 16.9497C15.9261 17.3403 16.5593 17.3403 16.9498 16.9497C17.3404 16.5592 17.3404 15.9261 16.9498 15.5355L13.4143 12L16.9498 8.46447Z" fill="#ffffff"></path> </g></svg>
+                            </div>
+
+                            <h2>Language</h2>
+                            <p>FULLY SUPPORTED</p>
+                            <p><svg fill="rgb(245,197,24)" width="20px" height="20px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" stroke="rgb(245,197,24)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g transform="matrix(1,0,0,1,-512,-320)"> <rect id="Icons" x="0" y="0" width="1280" height="800" style="fill:none;"></rect> <g id="Icons1" serif:id="Icons"> <g id="Strike"> </g> <g id="H1"> </g> <g id="H2"> </g> <g id="H3"> </g> <g id="list-ul"> </g> <g id="hamburger-1"> </g> <g id="hamburger-2"> </g> <g id="list-ol"> </g> <g id="list-task"> </g> <g id="trash"> </g> <g id="vertical-menu"> </g> <g id="horizontal-menu"> </g> <g id="sidebar-2"> </g> <g id="Pen"> </g> <g id="Pen1" serif:id="Pen"> </g> <g id="clock"> </g> <g id="external-link"> </g> <g id="hr"> </g> <g id="info"> </g> <g id="warning"> </g> <g id="plus-circle"> </g> <g id="minus-circle"> </g> <g id="vue"> </g> <g id="cog"> </g> <g id="logo"> </g> <g id="radio-check"> </g> <g id="eye-slash"> </g> <g id="eye"> </g> <g id="toggle-off"> </g> <g id="shredder"> </g> <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"> </g> <g id="react"> </g> <g id="check-selected"> <g transform="matrix(0.10009,1.645e-33,1.645e-33,0.10009,511.942,319.993)"> <path d="M321.714,559.995C383.452,559.4 444.576,533.825 488.528,490.39C540.728,438.804 567.614,362.474 558.237,289.61C542.165,164.734 439.517,80 320.172,80C229.504,80 141.375,136.719 102.723,218.967C73.131,281.935 73.079,357.952 102.723,421.033C141.101,502.698 227.781,559.119 318.63,559.995C319.658,559.998 320.686,559.998 321.714,559.995ZM318.887,519.994C226.669,519.105 140.633,447.794 123.527,356.366C111.467,291.905 134.234,222.15 181.658,176.375C237.036,122.923 324.063,105.014 396.424,135.314C461.174,162.428 509.632,225.368 518.562,294.718C526.216,354.158 504.885,416.454 462.966,459.367C426.2,497.004 374.636,519.481 321.457,519.994C320.6,519.997 319.744,519.997 318.887,519.994Z" style="fill-rule:nonzero;"></path> </g> <g transform="matrix(1.20036,0,0,1.20036,-108.995,-70.5272)"> <circle cx="543.992" cy="352" r="14.13"></circle> </g> </g> <g id="turn-off"> </g> <g id="code-block"> </g> <g id="user"> </g> <g id="coffee-bean"> </g> <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,785.021,-208.975)"> <g id="coffee-beans"> <g id="coffee-bean1" serif:id="coffee-bean"> </g> </g> </g> <g id="coffee-bean-filled"> </g> <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,913.062,-208.975)"> <g id="coffee-beans-filled"> <g id="coffee-bean2" serif:id="coffee-bean"> </g> </g> </g> <g id="clipboard"> </g> <g transform="matrix(1,0,0,1,128.011,1.35415)"> <g id="clipboard-paste"> </g> </g> <g id="clipboard-copy"> </g> <g id="Layer1"> </g> </g> </g> </g></svg>
+                            English (United States)</p>
+                            <p>PARTIALLY SUPPORTED</p>
+                            <ul>
+                                <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Français (Canada)</li>
+
+                                <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Français (France)</li>
+
+                                <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Deutsch (Deutschland)</li>
+
+                                <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>हिंदी (भारत)</li>
+
+                                <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Italiano (Italia)</li>
+
+                                <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Português (Brasil)</li>
+
+                                <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Español (España)</li>
+
+                                <li><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Español (México)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="data:image/png;base64,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" alt="">
+                </a>
+                <div class="search">
+                    <button id="options-t">All <svg fill="#000000" width="12px" height="12px" viewBox="0 0 22 22"
+                            xmlns="http://www.w3.org/2000/svg" id="memory-menu-down-fill" stroke="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M17 9V8H5V9H6V10H7V11H8V12H9V13H10V14H12V13H13V12H14V11H15V10H16V9"></path>
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="optionmenu-t">
+                        <ul>
+                            <li><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="rgb(241,194,24)" stroke-width="1.752" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>All</a></li>
+
+                            <li><a href="#"><svg width="20px" height="20px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H3V3H5V1H11V3H13V1H15V15H13V13H11V15H5V13H3V15H1V1ZM3 9H5V11H3V9ZM13 9H11V11H13V9ZM3 5H5V7H3V5ZM13 5H11V7H13V5Z" fill="rgb(143,143,143)"></path> </g></svg>Titles</a></li>
+
+                            <li><a href="#"><svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10 20H14M5 18H19C20.1046 18 21 17.1046 21 16V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V16C3 17.1046 3.89543 18 5 18Z" stroke="rgb(143,143,143)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>TV episodes</a></li>
+
+                            <li><a href="#"><svg fill="rgb(143,143,143)" width="30px" height="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" stroke="rgb(143,143,143)" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>ionicons-v5-j</title><path d="M336,256c-20.56,0-40.44-9.18-56-25.84-15.13-16.25-24.37-37.92-26-61-1.74-24.62,5.77-47.26,21.14-63.76S312,80,336,80c23.83,0,45.38,9.06,60.7,25.52,15.47,16.62,23,39.22,21.26,63.63h0c-1.67,23.11-10.9,44.77-26,61C376.44,246.82,356.57,256,336,256Zm66-88h0Z"></path><path d="M467.83,432H204.18a27.71,27.71,0,0,1-22-10.67,30.22,30.22,0,0,1-5.26-25.79c8.42-33.81,29.28-61.85,60.32-81.08C264.79,297.4,299.86,288,336,288c36.85,0,71,9,98.71,26.05,31.11,19.13,52,47.33,60.38,81.55a30.27,30.27,0,0,1-5.32,25.78A27.68,27.68,0,0,1,467.83,432Z"></path><path d="M147,260c-35.19,0-66.13-32.72-69-72.93C76.58,166.47,83,147.42,96,133.45,108.86,119.62,127,112,147,112s38,7.66,50.93,21.57c13.1,14.08,19.5,33.09,18,53.52C213.06,227.29,182.13,260,147,260Z"></path><path d="M212.66,291.45c-17.59-8.6-40.42-12.9-65.65-12.9-29.46,0-58.07,7.68-80.57,21.62C40.93,316,23.77,339.05,16.84,366.88a27.39,27.39,0,0,0,4.79,23.36A25.32,25.32,0,0,0,41.72,400h111a8,8,0,0,0,7.87-6.57c.11-.63.25-1.26.41-1.88,8.48-34.06,28.35-62.84,57.71-83.82a8,8,0,0,0-.63-13.39C216.51,293.42,214.71,292.45,212.66,291.45Z"></path></g></svg>Celebs</a></li>
+                            <li><a href="#"><svg fill="rgb(143,143,143)" width="30px" height="30px" viewBox="0 -4.91 122.88 122.88" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="enable-background:new 0 0 122.88 113.05" xml:space="preserve" stroke="rgb(143,143,143)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style> <g> <path class="st0" d="M0,100.07h14.72V1.57c0-0.86,0.71-1.57,1.57-1.57h49.86c0.86,0,1.57,0.71,1.57,1.57V38.5h44.12 c0.86,0,1.57,0.71,1.57,1.57v59.99h9.47v12.99H0V100.07L0,100.07z M27.32,14.82h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36 c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V15.39C26.75,15.08,27.01,14.82,27.32,14.82L27.32,14.82z M44.6,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V76.87 C44.03,76.55,44.29,76.3,44.6,76.3L44.6,76.3z M27.32,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C26.75,76.55,27.01,76.3,27.32,76.3L27.32,76.3z M44.6,55.8h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V56.38 C44.03,56.06,44.29,55.8,44.6,55.8L44.6,55.8z M27.32,55.8h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V56.38C26.75,56.06,27.01,55.8,27.32,55.8L27.32,55.8z M44.6,35.31h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V35.88 C44.03,35.57,44.29,35.31,44.6,35.31L44.6,35.31z M27.32,35.31h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V35.88C26.75,35.57,27.01,35.31,27.32,35.31L27.32,35.31z M44.6,14.82h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V15.39 C44.03,15.08,44.29,14.82,44.6,14.82L44.6,14.82z M23.17,7.32h35.92c0.62,0,1.13,0.61,1.13,1.35v85.87c0,0.74-0.51,1.35-1.13,1.35 H23.17c-0.62,0-1.13-0.61-1.13-1.35V8.67C22.04,7.93,22.55,7.32,23.17,7.32L23.17,7.32z M72.61,53.43h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54 C72.04,53.69,72.3,53.43,72.61,53.43L72.61,53.43z M89.89,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C89.32,76.55,89.58,76.3,89.89,76.3L89.89,76.3z M72.61,76.3h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87 C72.04,76.55,72.3,76.3,72.61,76.3L72.61,76.3z M89.89,53.43h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54C89.32,53.69,89.58,53.43,89.89,53.43L89.89,53.43z M68.86,45.82h35.92 c0.62,0,1.13,0.61,1.13,1.35v47.37c0,0.74-0.51,1.35-1.13,1.35H68.86c-0.62,0-1.13-0.61-1.13-1.35V47.17 C67.73,46.43,68.24,45.82,68.86,45.82L68.86,45.82z"></path> </g> </g></svg>Companies</a></li>
+                            <li><a href="#"><svg fill="rgb(143,143,143)" width="30px" height="30px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="rgb(143,143,143)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M246.65625,132.43713l-45.625,68.43848.001-.001a15.96649,15.96649,0,0,1-13.31348,7.125H40a16.01833,16.01833,0,0,1-16-16v-128a16.01833,16.01833,0,0,1,16-16H187.71875a15.9687,15.9687,0,0,1,13.31348,7.126l45.624,68.43652A7.99771,7.99771,0,0,1,246.65625,132.43713Z"></path> </g></svg>Keywords</a></li>
+
+                            <li><a href="#"><svg fill="rgb(143,143,143)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 92.268 92.268" xml:space="preserve" stroke="rgb(143,143,143)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <polygon points="57.967,0 54.892,8.795 73.357,21.546 "></polygon> <path d="M83.775,76.48l-10.58-10.582V27.366l-23.912-16.51L53.078,0H5.887v92.268h67.309V90.6 c1.297,0.711,2.758,1.095,4.278,1.095c2.38,0,4.618-0.927,6.302-2.61C87.25,85.609,87.25,79.955,83.775,76.48z M80.328,85.176 c-1.321,1.321-3.465,1.321-4.786,0L53.598,63.232c-0.089-0.09-0.156-0.191-0.234-0.288c-7.597,5.342-18.176,4.639-24.963-2.149 c-7.596-7.595-7.596-19.954,0-27.549c7.597-7.595,19.956-7.595,27.549,0c6.785,6.787,7.49,17.367,2.149,24.963 c0.095,0.078,0.197,0.146,0.289,0.236l21.94,21.941C81.65,81.71,81.65,83.854,80.328,85.176z"></path> <circle cx="42.04" cy="46.866" r="13.586"></circle> </g> </g> </g></svg>Advanced search
+                            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke="rgb(143,143,143)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a></li>
+                        </ul>
+                    </div>
+
+                    <input type="search" placeholder="Search IMDb">
+                    <svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                                    stroke="#787878" stroke-width="2.352" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                    </svg>
+                </div>
+                <div class="signin">
+                    <a href="#" class="signinli">
+                        <span>Sign In</span>
+                    </a>
+                </div>
+                <div class="use-app">
+                    Use app
+                </div>
+            </div>
+        </section>
+        <!-- end header T -->
+    </header>
+
+    <main>
+
+        <!-- start banner -->
+        <section class="page-content-container">
+            <section class="banner-side">
+                <div class="swiper banner">
+                    <div class="swiper-wrapper">
+                        
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+            <section class="about-movies">
+                <h3>Up next</h3>
+                <div class="movies">
+                    
+                </div>
+                <a href="#">Browse trailers ></a>
+            </section>
+        </section>
+        <!-- end banner -->
+
+        <!-- start  Featured -->
+        <section class="Featured">
+            <h2>Featured today</h2>
+            <div class="swiper featuredsec">
+                <div class="swiper-wrapper">
+                    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- end Featured -->
+
+        <!-- start celebrities -->
+        <section class="celebrities">
+            <div class="title-cel">
+                <h2><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g id="Interface / Line_Xl">
+                                <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </svg>Most popular celebrities<svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg></h2>
+                <span>TOP RISING</span>
+            </div>
+            <div class="swiper celebrity">
+                <div class="swiper-wrapper">
+                
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- end celebrities -->
+
+        <!-- start watchlist -->
+        <section class="watchlist-line">
+            <div class="list-title">
+                <h2>What to watch</h2>
+                <a href="#">Get more recommendations ></a>
+            </div>
+            <span>
+                <svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g id="Interface / Line_Xl">
+                            <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </svg>From your Watchlist <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </g>
+                </svg>
+            </span>
+            <div class="access">
+                <svg width="50px" height="50px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#dedede" stroke-width="1.272" stroke-linecap="round" stroke-linejoin="miter"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><polygon points="20 22 12 16 4 22 4 2 20 2 20 22" fill="rgb(54,54,54)" opacity="0.1"></polygon><polygon points="20 22 12 16 4 22 4 2 20 2 20 22"></polygon><line x1="12" y1="6" x2="12" y2="12"></line><line x1="15" y1="9" x2="9" y2="9"></line></g></svg>
+                <span>Sign in to access your Watchlist</span>
+                <span>Save shows and movies to keep track of what you want to watch.</span>
+                <a href="#">sign in to IMDb</a>
+            </div>
+        </section>
+        <!-- end watchlist -->
+
+        <!--start top movies -->
+        <section class="top-movies">
+            <h2><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    stroke="rgb(245,197,24)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g id="Interface / Line_Xl">
+                            <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </svg> Top 10 on IMDb this week</h2>
+
+
+            <div class="swiper top-movies-line">
+                <div class="swiper-wrapper">
+                
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- end top movies -->
+
+        <!-- start fanfavorites -->
+        <section class="fan-favorites">
+            <h2><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    stroke="rgb(245,197,24)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g id="Interface / Line_Xl">
+                            <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </svg> Fan favorites <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </g>
+                </svg></h2>
+            <p>This week's top TV and movies</p>
+
+            <div class="swiper favorites">
+                <div class="swiper-wrapper">
+                
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </section>
+        <!-- end fan favirites -->
+
+        <!--start popular movies -->
+        <section class="popular-line">
+            <h2><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    stroke="rgb(245,197,24)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g id="Interface / Line_Xl">
+                            <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </svg> Popular-interests <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </g>
+                </svg></h2>
+
+
+                <div class="swiper popular-interests">
+                    <div class="swiper-wrapper">
+                    
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+        </section>
+        <!-- end popular movies -->
+
+        
+        <!--start Exclusive-videos -->
+        <section class="Exclusive-videos">
+            <h2>Exclusive-videos</h2>
+            <h3><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    stroke="rgb(245,197,24)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g id="Interface / Line_Xl">
+                            <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </svg> IMDb Originals</h3>
+            <p>Celebrity interviews, trending entertainment stories, and expert analysis</p>
+            <!-- start originals -->
+            <div class="swiper Originals">
+                <div class="swiper-wrapper">
+                    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- end originals -->
+        </section>
+        <!-- end Exclusive-videos  -->
+
+        <!-- start streaming -->
+        <section class="streaming">
+            <h2>Explore what’s streaming</h2>
+            <ul>
+                <li><a href="#">PRIME VIDEO</a></li>
+                <li><a href="#">NETFLIX</a></li>
+                <li><a href="#">APPLE TV+</a></li>
+                <li><a href="#">DISNEY+</a></li>
+                <li><a href="#">HULU</a></li>
+                <li><a href="#">MAX</a></li>
+                <li><a href="#">PARAMOUNT+</a></li>
+                <li><a href="#">AMC+</a></li>
+                <li><a href="#">STARZ</a></li>
+                <li><a href="#">SHOWTIME</a></li>
+            </ul>
+            <p>included with Prime</p>
+
+            <div class="swiper streaming-slide">
+                <div class="swiper-wrapper">
+                
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </section>
+        <!-- end streaming -->
+
+        <!-- start Movies-TVshows -->
+        <section class="Movies-TVshows">
+            <h2>Explore Movies & TV shows</h2>
+            <!-- start  in-theaters-->
+            <section class="in-theaters">
+                <p><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g id="Interface / Line_Xl">
+                                <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </svg> In theaters <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </p>
+                <span>Showtimes near you</span>
+                <div class="swiper theaters">
+                    <div class="swiper-wrapper">
+                    </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+            </section>
+            <!-- end in-theaters -->
+
+
+            <!-- start  top-box-->
+            <section class="top-box">
+
+                <p><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g id="Interface / Line_Xl">
+                                <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </svg> Top box office (US) <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </p>
+                <span>Weekend of June 6-8</span>
+                <div class="tiket-container">
+                    
+                </div>
+            </section>
+            <!-- end top-box -->
+
+            <!-- start coming-soon -->
+            <section class="coming-soon">
+                <p><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g id="Interface / Line_Xl">
+                                <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </svg> Coming soon to theaters <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </p>
+                <span>Trailers for upcoming releases</span>
+                <div class="swiper comingsoon-slider">
+                    <div class="swiper-wrapper">
+                    </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+            </section>
+            <!-- end coming-soon -->
+
+        </section>
+        <!-- end Movies-TVshows -->
+
+        <!-- start more explore -->
+        <section class="more-explore">
+            <h2>More to explore</h2>
+            <!-- start Editor's picks -->
+            <div class="editors-picks">
+                <p><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g id="Interface / Line_Xl">
+                                <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </svg> Editor's picks
+                </p>
+
+                <div class="swiper more-exploresec">
+                    <div class="swiper-wrapper">
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- end Editor's picks -->
+
+            <!-- start birthday -->
+            <div class="born-today">
+                <p><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g id="Interface / Line_Xl">
+                                <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </svg> Born today<svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </p>
+                <span>people born on June 16</span>
+                <div class="swiper birthdays">
+                    <div class="swiper-wrapper">
+                                            
+                     </div>   
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- end birthday -->
+
+            <!-- start news -->
+            <div class="news">
+                <p><svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="rgb(245,197,24)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g id="Interface / Line_Xl">
+                                <path id="Vector" d="M12 21V3" stroke="rgb(245,197,24)" stroke-width="2.4"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </svg> Top news <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </p>
+                <div class="swiper top-newssec">
+                    <div class="swiper-wrapper">
+                        
+                       
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- end news -->
+
+            <div class="news-list">
+                <ul>
+                    <li><a href="#">Top news</a></li>
+                    <li><a href="#">Movie news</a></li>
+                    <li><a href="#">TV news</a></li>
+                    <li><a href="#">Celebrity news</a></li>
+                </ul>
+            </div>
+
+            <div class="recently-viewed">
+                <h2>Recently viewed</h2>
+                <p>You have no recently viewed pages</p>
+            </div>
+        </section>
+        <!-- end more explore -->
+    </main>
+
+
+    <footer>
+        <div class="get-app tablet"><a>Get the IMDb app</a></div>
+        <a href="#" id="last-button">sign in for more access</a>
+        <div class="social-media">
+            <div class="left-side-f">
+                <h2>Follow IMDb on social</h2>
+                <div class="medias">
+                    <svg fill="#ffffff" width="25px" height="25px" viewBox="0 0 24 24" id="tiktok"
+                        data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path id="primary"
+                                d="M21,7V9a1,1,0,0,1-1,1,8,8,0,0,1-4-1.08V15.5A6.5,6.5,0,1,1,6.53,9.72a1,1,0,0,1,1.47.9v2.52a.92.92,0,0,1-.28.62,2.49,2.49,0,0,0,2,4.23A2.61,2.61,0,0,0,12,15.35V3a1,1,0,0,1,1-1h2.11a1,1,0,0,1,1,.83A4,4,0,0,0,20,6,1,1,0,0,1,21,7Z"
+                                style="fill: #ffffff;"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="25px" height="25px" viewBox="0 0 24.00 24.00" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.00024000000000000003">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                                fill="#fffafa"></path>
+                            <path
+                                d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                                fill="#fffafa"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                                fill="#fffafa"></path>
+                        </g>
+                    </svg>
+                    <svg width="25px" height="25px" viewBox="0 -3 20 20" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>youtube [#168]</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs> </defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7442.000000)"
+                                    fill="#ffffff">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                        <path
+                                            d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289"
+                                            id="youtube-[#168]"> </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg width="25px" height="25px" viewBox="0 0 48.00 48.00" xmlns="http://www.w3.org/2000/svg"
+                        fill="#ffffff" stroke="#ffffff" stroke-width="0.00048000000000000007">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>facebook</title>
+                            <g id="Layer_2" data-name="Layer 2">
+                                <g id="invisible_box" data-name="invisible box">
+                                    <rect width="48" height="48" fill="none"></rect>
+                                    <rect width="48" height="48" fill="none"></rect>
+                                </g>
+                                <g id="icons_Q2" data-name="icons Q2">
+                                    <path
+                                        d="M44,6.1V41.9a.3.3,0,0,1-.1.2,1.9,1.9,0,0,1-1.8,1.8H31.6V28.5h4.9c.3,0,.3,0,.4-.3l.3-2.5c.1-1,.2-2,.4-3s0-.3-.2-.3H31.6V18.5c0-.3.1-.7.1-1a1.8,1.8,0,0,1,1.6-1.6l1.3-.2h3c.2,0,.2,0,.2-.2V10.4c0-.1,0-.2-.2-.2H33a7.2,7.2,0,0,0-3.3.7A6,6,0,0,0,26.2,14a7.3,7.3,0,0,0-.8,3.6c-.1,1.5,0,3.1,0,4.7H20.3c-.2,0-.2.1-.2.2v5.7c0,.2,0,.2.2.2h5.1V43.8a.3.3,0,0,0-.1.2H5.9a1.9,1.9,0,0,1-1.8-1.8c-.1,0-.1-.1-.1-.2V6.1c0-.1,0-.2.1-.2A1.9,1.9,0,0,1,5.9,4.1H42.1a1.9,1.9,0,0,1,1.8,1.8Z">
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+
+                </div>
+            </div>
+            <div class="right-side-f">
+                <h2>Get the IMDb app</h2>
+                <p>For Android and IOS</p>
+            </div>
+        </div>
+        <div class="first-option-line">
+            <ul>
+                <li><a href="#">Help<svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15.0001 13.5V9M15.0001 9H10.5001M15.0001 9L9.00024 14.9999M7.20024 20H16.8002C17.9203 20 18.4804 20 18.9082 19.782C19.2845 19.5903 19.5905 19.2843 19.7823 18.908C20.0002 18.4802 20.0002 17.9201 20.0002 16.8V7.2C20.0002 6.0799 20.0002 5.51984 19.7823 5.09202C19.5905 4.71569 19.2845 4.40973 18.9082 4.21799C18.4804 4 17.9203 4 16.8002 4H7.20024C6.08014 4 5.52009 4 5.09226 4.21799C4.71594 4.40973 4.40998 4.71569 4.21823 5.09202C4.00024 5.51984 4.00024 6.07989 4.00024 7.2V16.8C4.00024 17.9201 4.00024 18.4802 4.21823 18.908C4.40998 19.2843 4.71594 19.5903 5.09226 19.782C5.52009 20 6.08014 20 7.20024 20Z"
+                                    stroke="#ffffff" stroke-width="1.344" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg></a></li>
+                <li><a href="#">Site Index<svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15.0001 13.5V9M15.0001 9H10.5001M15.0001 9L9.00024 14.9999M7.20024 20H16.8002C17.9203 20 18.4804 20 18.9082 19.782C19.2845 19.5903 19.5905 19.2843 19.7823 18.908C20.0002 18.4802 20.0002 17.9201 20.0002 16.8V7.2C20.0002 6.0799 20.0002 5.51984 19.7823 5.09202C19.5905 4.71569 19.2845 4.40973 18.9082 4.21799C18.4804 4 17.9203 4 16.8002 4H7.20024C6.08014 4 5.52009 4 5.09226 4.21799C4.71594 4.40973 4.40998 4.71569 4.21823 5.09202C4.00024 5.51984 4.00024 6.07989 4.00024 7.2V16.8C4.00024 17.9201 4.00024 18.4802 4.21823 18.908C4.40998 19.2843 4.71594 19.5903 5.09226 19.782C5.52009 20 6.08014 20 7.20024 20Z"
+                                    stroke="#ffffff" stroke-width="1.344" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg></a></li>
+                <li><a href="#">IMDbPro<svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15.0001 13.5V9M15.0001 9H10.5001M15.0001 9L9.00024 14.9999M7.20024 20H16.8002C17.9203 20 18.4804 20 18.9082 19.782C19.2845 19.5903 19.5905 19.2843 19.7823 18.908C20.0002 18.4802 20.0002 17.9201 20.0002 16.8V7.2C20.0002 6.0799 20.0002 5.51984 19.7823 5.09202C19.5905 4.71569 19.2845 4.40973 18.9082 4.21799C18.4804 4 17.9203 4 16.8002 4H7.20024C6.08014 4 5.52009 4 5.09226 4.21799C4.71594 4.40973 4.40998 4.71569 4.21823 5.09202C4.00024 5.51984 4.00024 6.07989 4.00024 7.2V16.8C4.00024 17.9201 4.00024 18.4802 4.21823 18.908C4.40998 19.2843 4.71594 19.5903 5.09226 19.782C5.52009 20 6.08014 20 7.20024 20Z"
+                                    stroke="#ffffff" stroke-width="1.344" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg></a></li>
+                <li><a href="#">Box Office Mojo<svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15.0001 13.5V9M15.0001 9H10.5001M15.0001 9L9.00024 14.9999M7.20024 20H16.8002C17.9203 20 18.4804 20 18.9082 19.782C19.2845 19.5903 19.5905 19.2843 19.7823 18.908C20.0002 18.4802 20.0002 17.9201 20.0002 16.8V7.2C20.0002 6.0799 20.0002 5.51984 19.7823 5.09202C19.5905 4.71569 19.2845 4.40973 18.9082 4.21799C18.4804 4 17.9203 4 16.8002 4H7.20024C6.08014 4 5.52009 4 5.09226 4.21799C4.71594 4.40973 4.40998 4.71569 4.21823 5.09202C4.00024 5.51984 4.00024 6.07989 4.00024 7.2V16.8C4.00024 17.9201 4.00024 18.4802 4.21823 18.908C4.40998 19.2843 4.71594 19.5903 5.09226 19.782C5.52009 20 6.08014 20 7.20024 20Z"
+                                    stroke="#ffffff" stroke-width="1.344" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg></a></li>
+                <li><a href="#">License IMDb Data<svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15.0001 13.5V9M15.0001 9H10.5001M15.0001 9L9.00024 14.9999M7.20024 20H16.8002C17.9203 20 18.4804 20 18.9082 19.782C19.2845 19.5903 19.5905 19.2843 19.7823 18.908C20.0002 18.4802 20.0002 17.9201 20.0002 16.8V7.2C20.0002 6.0799 20.0002 5.51984 19.7823 5.09202C19.5905 4.71569 19.2845 4.40973 18.9082 4.21799C18.4804 4 17.9203 4 16.8002 4H7.20024C6.08014 4 5.52009 4 5.09226 4.21799C4.71594 4.40973 4.40998 4.71569 4.21823 5.09202C4.00024 5.51984 4.00024 6.07989 4.00024 7.2V16.8C4.00024 17.9201 4.00024 18.4802 4.21823 18.908C4.40998 19.2843 4.71594 19.5903 5.09226 19.782C5.52009 20 6.08014 20 7.20024 20Z"
+                                    stroke="#ffffff" stroke-width="1.344" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg></a></li>
+            </ul>
+        </div>
+        <div class="second-option-line">
+            <ul>
+                <li><a href="#">Press Room</a></li>
+                <li><a href="#">Advertising<svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15.0001 13.5V9M15.0001 9H10.5001M15.0001 9L9.00024 14.9999M7.20024 20H16.8002C17.9203 20 18.4804 20 18.9082 19.782C19.2845 19.5903 19.5905 19.2843 19.7823 18.908C20.0002 18.4802 20.0002 17.9201 20.0002 16.8V7.2C20.0002 6.0799 20.0002 5.51984 19.7823 5.09202C19.5905 4.71569 19.2845 4.40973 18.9082 4.21799C18.4804 4 17.9203 4 16.8002 4H7.20024C6.08014 4 5.52009 4 5.09226 4.21799C4.71594 4.40973 4.40998 4.71569 4.21823 5.09202C4.00024 5.51984 4.00024 6.07989 4.00024 7.2V16.8C4.00024 17.9201 4.00024 18.4802 4.21823 18.908C4.40998 19.2843 4.71594 19.5903 5.09226 19.782C5.52009 20 6.08014 20 7.20024 20Z"
+                                    stroke="#ffffff" stroke-width="1.344" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg></a></li>
+                <li><a href="#">Jobs<svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15.0001 13.5V9M15.0001 9H10.5001M15.0001 9L9.00024 14.9999M7.20024 20H16.8002C17.9203 20 18.4804 20 18.9082 19.782C19.2845 19.5903 19.5905 19.2843 19.7823 18.908C20.0002 18.4802 20.0002 17.9201 20.0002 16.8V7.2C20.0002 6.0799 20.0002 5.51984 19.7823 5.09202C19.5905 4.71569 19.2845 4.40973 18.9082 4.21799C18.4804 4 17.9203 4 16.8002 4H7.20024C6.08014 4 5.52009 4 5.09226 4.21799C4.71594 4.40973 4.40998 4.71569 4.21823 5.09202C4.00024 5.51984 4.00024 6.07989 4.00024 7.2V16.8C4.00024 17.9201 4.00024 18.4802 4.21823 18.908C4.40998 19.2843 4.71594 19.5903 5.09226 19.782C5.52009 20 6.08014 20 7.20024 20Z"
+                                    stroke="#ffffff" stroke-width="1.344" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg></a></li>
+                <li><a href="#">Conditions of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Your Ads Privacy Choices</a></li>
+            </ul>
+        </div>
+        <p>an <svg width="64px" height="60px" viewBox="163.5 163.50000000000003 285 285"
+                xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g clip-rule="evenodd" fill-rule="evenodd">
+                        <path
+                            d="m340.3 330.2c-16.5 12.2-40.5 18.7-61.2 18.7-29 0-55-10.7-74.8-28.5-1.5-1.4-.2-3.3 1.7-2.2 21.3 12.4 47.6 19.8 74.8 19.8 18.3 0 38.5-3.8 57.1-11.7 2.8-1.1 5.1 1.9 2.4 3.9z"
+                            fill="#ffffff"></path>
+                        <path
+                            d="m347.2 322.3c-2.1-2.7-14-1.3-19.3-.6-1.6.2-1.9-1.2-.4-2.2 9.5-6.7 25-4.7 26.8-2.5s-.5 17.8-9.4 25.2c-1.4 1.1-2.7.5-2.1-1 2-5 6.5-16.1 4.4-18.9z"
+                            fill="#ffffff"></path>
+                        <path
+                            d="m328.2 272.5v-6.5c0-1 .7-1.6 1.6-1.6h29c.9 0 1.7.7 1.7 1.6v5.5c0 .9-.8 2.1-2.2 4.1l-15 21.4c5.6-.1 11.5.7 16.5 3.5 1.1.6 1.4 1.6 1.5 2.5v6.9c0 1-1 2.1-2.1 1.5-8.9-4.7-20.8-5.2-30.6.1-1 .5-2.1-.5-2.1-1.5v-6.6c0-1 0-2.8 1.1-4.4l17.4-24.9h-15.1c-.9 0-1.7-.7-1.7-1.6zm-105.7 40.3h-8.8c-.8-.1-1.5-.7-1.6-1.5v-45.2c0-.9.8-1.6 1.7-1.6h8.2c.9 0 1.5.7 1.6 1.5v5.9h.2c2.1-5.7 6.2-8.4 11.6-8.4 5.5 0 9 2.7 11.4 8.4 2.1-5.7 7-8.4 12.2-8.4 3.7 0 7.7 1.5 10.2 5 2.8 3.8 2.2 9.3 2.2 14.2v28.6c0 .9-.8 1.6-1.7 1.6h-8.7c-.9-.1-1.6-.8-1.6-1.6v-24c0-1.9.2-6.7-.2-8.5-.7-3-2.6-3.9-5.2-3.9-2.1 0-4.4 1.4-5.3 3.7s-.8 6.1-.8 8.7v24c0 .9-.8 1.6-1.7 1.6h-8.8c-.9-.1-1.6-.8-1.6-1.6v-24c0-5 .8-12.5-5.4-12.5-6.3 0-6.1 7.2-6.1 12.5v24c-.1.8-.8 1.5-1.8 1.5zm163-49.3c13.1 0 20.2 11.2 20.2 25.5 0 13.8-7.8 24.8-20.2 24.8-12.8 0-19.8-11.2-19.8-25.2-.1-14.1 7-25.1 19.8-25.1zm0 9.3c-6.5 0-6.9 8.9-6.9 14.4s-.1 17.3 6.8 17.3c6.8 0 7.2-9.5 7.2-15.3 0-3.8-.2-8.4-1.3-12-1-3.2-3-4.4-5.8-4.4zm37.1 40h-8.8c-.9-.1-1.6-.8-1.6-1.6v-45.3c.1-.8.8-1.5 1.7-1.5h8.2c.8 0 1.4.6 1.6 1.3v6.9h.2c2.5-6.2 5.9-9.1 12-9.1 3.9 0 7.8 1.4 10.3 5.3 2.3 3.6 2.3 9.7 2.3 14.1v28.5c-.1.8-.8 1.4-1.7 1.4h-8.8c-.8-.1-1.5-.7-1.6-1.4v-24.6c0-5 .6-12.2-5.5-12.2-2.1 0-4.1 1.4-5.1 3.6-1.2 2.8-1.4 5.5-1.4 8.6v24.4c-.1.9-.9 1.6-1.8 1.6zm-117.5-21.6c0 3.4.1 6.3-1.6 9.4-1.4 2.5-3.6 4-6.1 4-3.4 0-5.4-2.6-5.4-6.4 0-7.5 6.7-8.9 13.1-8.9zm8.9 21.5c-.6.5-1.4.6-2.1.2-2.9-2.4-3.5-3.6-5.1-5.9-4.8 4.9-8.3 6.4-14.5 6.4-7.4 0-13.2-4.6-13.2-13.7 0-7.2 3.9-12 9.4-14.4 4.8-2.1 11.5-2.5 16.6-3.1v-1.1c0-2.1.2-4.6-1.1-6.4-1.1-1.6-3.1-2.3-4.9-2.3-3.4 0-6.4 1.7-7.1 5.3-.2.8-.7 1.6-1.5 1.6l-8.5-.9c-.7-.2-1.5-.7-1.3-1.8 2-10.4 11.3-13.5 19.7-13.5 4.3 0 9.9 1.1 13.3 4.4 4.3 4 3.9 9.4 3.9 15.2v13.7c0 4.1 1.7 5.9 3.3 8.2.6.8.7 1.8 0 2.3-1.9 1.5-5.1 4.3-6.9 5.8zm-124.4-21.5c0 3.4.1 6.3-1.6 9.4-1.4 2.5-3.6 4-6.1 4-3.4 0-5.4-2.6-5.4-6.4 0-7.5 6.7-8.9 13.1-8.9zm8.8 21.5c-.6.5-1.4.6-2.1.2-2.9-2.4-3.5-3.6-5.1-5.9-4.8 4.9-8.3 6.4-14.5 6.4-7.4 0-13.2-4.6-13.2-13.7 0-7.2 3.9-12 9.4-14.4 4.8-2.1 11.5-2.5 16.6-3.1v-1.1c0-2.1.2-4.6-1.1-6.4-1.1-1.6-3.1-2.3-4.9-2.3-3.4 0-6.4 1.7-7.1 5.3-.2.8-.7 1.6-1.5 1.6l-8.5-.9c-.7-.2-1.5-.7-1.3-1.8 2-10.4 11.3-13.5 19.7-13.5 4.3 0 9.9 1.1 13.3 4.4 4.3 4 3.9 9.4 3.9 15.2v13.7c0 4.1 1.7 5.9 3.3 8.2.6.8.7 1.8 0 2.3-1.9 1.5-5.1 4.3-6.9 5.8z">
+                        </path>
+                    </g>
+                </g>
+            </svg> company</p>
+        <p>Designed by P.N 2025</p>
+    </footer>
+
+
+
+
+
+    <script  src="./assets/js/menu.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>

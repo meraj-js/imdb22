@@ -1,0 +1,112 @@
+.celebrities {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.celebrities .title-cel {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+    margin-bottom: 20PX;
+}
+
+.celebrities .title-cel h2 {
+    color: white;
+    font-family: imdbfont;
+    font-size: 22px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.celebrities .title-cel span {
+    color: rgb(245, 197, 24);
+    font-family: imdbfont;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.celebrities .celebrity .swiper-slide img {
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.celebrities .celebrity .actors-info {
+    display: flex;
+    flex-flow: column wrap;
+    cursor: pointer;
+}
+
+/* ranking */
+.celebrity .ranking {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.celebrity .ranking span:nth-of-type(1) {
+    font-family: imdbfont;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.celebrity .ranking span:nth-of-type(2) {
+    font-family: imdbfont;
+    color: rgb(148, 148, 148);
+    font-weight: 400;
+}
+
+.celebrity .swiper-slide>span {
+    font-family: imdbfont;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.celebrity .swiper-slide {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: 300ms;
+}
+
+.celebrity .swiper-slide:hover {
+    opacity: 0.8;
+}
+
+.celebrities .celebrity .swiper-button-next {
+    color: white;
+    position: absolute;
+    top: 100px;
+}
+
+.celebrities .celebrity .swiper-button-next::after {
+    padding: 8px;
+    border-radius: 8%;
+    border: 0.5px solid white;
+    background-color: rgba(176, 176, 176, 0.168);
+
+}
+
+.celebrities .celebrity .swiper-button-prev {
+    color: white;
+    position: absolute;
+    top: 100px;
+}
+
+.celebrities .celebrity .swiper-button-prev::after {
+    padding: 8px;
+    border-radius: 8%;
+    border: 0.5px solid white;
+    background-color: rgba(176, 176, 176, 0.168);
+}

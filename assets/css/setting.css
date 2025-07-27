@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: imdbfont;
+    src: url("../fonts/cm9ib3Rv._TTW_.woff2");
+    src: url("../fonts/cm9ib3RvQm9sZA._TTW_.woff2");
+    src: url("../fonts/cm9ib3RvTWVk._TTW_.woff2");
+}

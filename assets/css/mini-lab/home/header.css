@@ -1,0 +1,356 @@
+header {
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: rgb(18, 18, 18);
+    font-family: imdbfont;
+    position: relative;
+}
+
+.tablet {
+    display: none;
+}
+
+
+header .desktop .navbar {
+    width: 100%
+}
+
+header .desktop .navbar {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* navbar */
+
+.navbar .logo img {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px
+}
+
+
+
+/* menu */
+.navbar #showbtn {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 3px;
+    cursor: pointer;
+    background-color: unset;
+    font-family: imdbfont;
+    border: unset;
+    padding: 6px 12px;
+    border-radius: 30px;
+}
+
+.navbar #showbtn:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.navbar .menu {
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 100vh;
+    padding: 8px;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 100000;
+    transition: 400ms;
+    overflow-y: scroll;
+}
+
+.menu .menu-section {
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 200px 200px;
+    gap: 10px;
+}
+
+.menu .menu-section .menu-items h2 {
+    font-family: imdbfont;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+}
+
+.menu .menu-section .menu-items h2 {
+    cursor: context-menu;
+}
+
+.menu .menu-section .menu-items ul {
+    font-family: imdbfont;
+    color: white;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.menu .menu-section .menu-items ul li {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.menu .menu-section .menu-items ul li a {
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+    font-size: 17px;
+    font-weight: 300;
+    font-family: imdbfont;
+}
+
+
+.menu .menu-section .menu-items ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu .menu-icon {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeBtn {
+    background-color: rgb(245, 197, 24);
+    width: 45px;
+    height: 45px;
+    display: inline;
+    border-radius: 50%;
+    padding: 13px 17px;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.navbar .show {
+    top: 0;
+    left: 0;
+}
+
+
+/* search */
+.navbar .search {
+    width: 45%;
+    height: 32px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    border-radius: 5px;
+    gap: 2px;
+    padding-right: 8px;
+}
+
+
+.search button {
+    padding: 0 6px 0 9px;
+    font-size: 13px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    border: unset;
+    background-color: white;
+    font-family: imdbfont;
+}
+
+.search input {
+    flex-grow: 3;
+    border: unset;
+    padding: 5px 0px 6px 8px;
+    margin-left: 5px;
+    border: unset;
+    outline: unset;
+    border-left: 0.7px solid rgb(177, 177, 177);
+}
+
+
+
+
+.navbar>img {
+    width: 65px;
+    height: 23px;
+    border-right: 1.5px rgb(91, 91, 91) solid;
+    padding-right: 10px;
+}
+
+
+
+/* watchlist */
+.navbar .watchlist {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar .watchlist:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.navbar .watchlist span {
+    color: white;
+}
+
+
+/* signin */
+.navbar .signin .signinli {
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar .signin .signinli:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+
+/* language */
+.navbar .language button {
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: unset;
+    font-family: imdbfont;
+    border: unset;
+}
+
+
+.navbar .language:hover {
+    background-color: rgb(40, 40, 40);
+    border-radius: 20px;
+}
+
+.navbar .language .language-menu {
+    width: 250px;
+    background-color: rgb(31, 31, 31);
+    position: absolute;
+    z-index: 10;
+    top: 55px;
+    right: 120px;
+    border-radius: 5px;
+    display: none;
+}
+
+.language .language-menu p {
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    border-bottom: 0.5px solid rgb(111, 111, 111);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.language .language-menu p:nth-of-type(2) {
+    font-size: 16px;
+    gap: 5px;
+}
+
+.language .language-menu p:nth-of-type(3):hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.navbar .language .open {
+    display: block;
+}
+
+.language .language-menu ul {
+    padding-bottom: 5px;
+}
+
+.language .language-menu ul li {
+    color: white;
+    font-size: 16px;
+    gap: 5px;
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.language .language-menu ul li:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+
+
+
+/* optionmenu */
+.search .optionmenu {
+    width: 240px;
+    height: 390px;
+    background-color: rgb(31, 31, 31);
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    border-radius: 5px;
+    display: none;
+}
+
+.search .optionmenu ul {
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+}
+
+.search .optionmenu ul li:nth-of-type(1) a {
+    color: rgb(241, 194, 24);
+    padding-top: 15px;
+}
+
+.search .optionmenu ul li:nth-last-of-type(1) {
+    border-top: 0.5px solid rgb(143, 143, 143);
+}
+
+.search .optionmenu ul li a {
+    text-decoration: none;
+    color: rgb(194, 194, 194);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.search .optionmenu ul li {
+    height: 55px;
+}
+
+.search .optionmenu ul li:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.search .open {
+    display: block;
+}
